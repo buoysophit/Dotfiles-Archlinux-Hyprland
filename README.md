@@ -2,10 +2,7 @@
 
 My personal dotfiles repository for Archlinux with Hyprland window manager configuration.
 
-## � Showcase
-
-<details>
-<summary>Click to see screenshots</summary>
+## Showcase
 
 ![Screenshot 1](img/2026-01-28_11-12-01.png)
 ![Screenshot 2](img/2026-01-28_11-12-02.png)
@@ -21,8 +18,6 @@ My personal dotfiles repository for Archlinux with Hyprland window manager confi
 ![Screenshot 12](img/2026-01-28_13-22-25.png)
 ![Screenshot 13](img/2026-01-28_13-28-26.png)
 ![Screenshot 14](img/2026-01-28_13-28-46.png)
-
-</details>
 
 ## �📋 Overview
 
