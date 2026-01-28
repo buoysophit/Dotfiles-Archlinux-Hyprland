@@ -2,7 +2,29 @@
 
 My personal dotfiles repository for Archlinux with Hyprland window manager configuration.
 
-## 📋 Overview
+## � Showcase
+
+<details>
+<summary>Click to see screenshots</summary>
+
+![Screenshot 1](img/2026-01-28_11-12-01.png)
+![Screenshot 2](img/2026-01-28_11-12-02.png)
+![Screenshot 3](img/2026-01-28_11-12-03.png)
+![Screenshot 4](img/2026-01-28_11-27-33.png)
+![Screenshot 5](img/2026-01-28_11-47-31.png)
+![Screenshot 6](img/2026-01-28_11-54-10.png)
+![Screenshot 7](img/2026-01-28_11-57-11.png)
+![Screenshot 8](img/2026-01-28_12-02-06.png)
+![Screenshot 9](img/2026-01-28_12-02-32.png)
+![Screenshot 10](img/2026-01-28_13-02-51.png)
+![Screenshot 11](img/2026-01-28_13-21-50.png)
+![Screenshot 12](img/2026-01-28_13-22-25.png)
+![Screenshot 13](img/2026-01-28_13-28-26.png)
+![Screenshot 14](img/2026-01-28_13-28-46.png)
+
+</details>
+
+## �📋 Overview
 
 This repository contains my complete configuration files for:
 - **Hyprland**: A dynamic tiling Wayland compositor
