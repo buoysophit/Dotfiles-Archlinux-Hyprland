@@ -1,0 +1,89 @@
+2026-01-17 16:04:39.042 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-17 16:04:39.042 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-17 16:04:39.042 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-17 16:04:39.042 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-17 16:04:39.082 [info] Logged in as buoysophit
+2026-01-17 16:04:39.087 [info] Using the Electron fetcher.
+2026-01-17 16:04:39.151 [error] Copilot extension not found
+2026-01-17 16:04:39.168 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-17 16:04:39.168 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-17 16:04:39.172 [info] Found 1 entries to copy: pty.node
+2026-01-17 16:04:39.172 [info] Found 1 entries to copy: rg
+2026-01-17 16:04:39.209 [error] PermissiveAuthRequiredError: Permissive authentication is required
+    at CP.getAllSessions (/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:1219:27375)
+    at /home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:2359:6527
+    at G4.$provideChatSessionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:61140)
+2026-01-17 16:04:40.797 [info] Got Copilot token for buoysophit
+2026-01-17 16:04:40.797 [info] Copilot Chat: 0.36.1, VS Code: 1.108.0
+2026-01-17 16:04:40.811 [info] activationBlocker from 'languageModelAccess' took for 1689ms
+2026-01-17 16:04:40.974 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-17 16:04:40.974 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-17 16:04:40.986 [info] Registering default platform agent...
+2026-01-17 16:04:40.987 [info] [code-referencing] Public code references are enabled.
+2026-01-17 16:04:40.987 [info] activationBlocker from 'conversationFeature' took for 1868ms
+2026-01-17 16:04:40.989 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-17 16:04:40.991 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-17 16:04:41.013 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-17 16:04:41.093 [info] Fetched model metadata in 1956ms f19a2bf2-d014-43d9-a7f9-41c9c37af285
+2026-01-17 16:04:41.095 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-17 16:04:41.095 [info] ccreq:c3339aa2.copilotmd | markdown
+2026-01-17 16:04:41.677 [error] PermissiveAuthRequiredError: Permissive authentication is required
+    at CP.getAllSessions (/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:1219:27375)
+    at /home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:2359:6527
+    at G4.$provideChatSessionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:61140)
+2026-01-17 16:05:12.505 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-17 16:05:12.522 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-17 16:05:12.523 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-17 16:05:12.523 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-17 16:05:12.610 [info] Logged in as buoysophit
+2026-01-17 16:05:12.615 [info] Using the Electron fetcher.
+2026-01-17 16:05:12.677 [error] Copilot extension not found
+2026-01-17 16:05:12.697 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-17 16:05:12.697 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-17 16:05:12.700 [info] Found 1 entries to copy: pty.node
+2026-01-17 16:05:12.700 [info] Found 1 entries to copy: rg
+2026-01-17 16:05:14.460 [info] Got Copilot token for buoysophit
+2026-01-17 16:05:14.460 [info] Copilot Chat: 0.36.1, VS Code: 1.108.0
+2026-01-17 16:05:14.475 [info] activationBlocker from 'languageModelAccess' took for 1827ms
+2026-01-17 16:05:14.723 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-17 16:05:14.723 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-17 16:05:14.735 [info] Registering default platform agent...
+2026-01-17 16:05:14.736 [info] [code-referencing] Public code references are enabled.
+2026-01-17 16:05:14.736 [info] activationBlocker from 'conversationFeature' took for 2092ms
+2026-01-17 16:05:14.747 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-17 16:05:14.749 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-17 16:05:14.761 [info] Fetched model metadata in 2100ms 450b8147-6b98-4a13-ab27-06f17edf5aeb
+2026-01-17 16:05:14.766 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-17 16:05:14.769 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-17 16:05:14.769 [info] ccreq:3c1995b9.copilotmd | markdown
+2026-01-17 16:05:41.267 [warning] [relatedFiles] unknown language jsonc
+2026-01-17 16:05:41.622 [info] [fetchCompletions] Request 0ea97d2b-7b4c-4f4c-bd03-579d2cd0f38f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 333.3471160000008ms
+2026-01-17 16:05:41.627 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:05:44.754 [info] message 0 returned. finish reason: [stop]
+2026-01-17 16:05:44.754 [info] request done: requestId: [e45af0a9-cde3-497f-b7f3-aff44e49a397] model deployment ID: []
+2026-01-17 16:05:45.029 [info] ccreq:a6ea28df.copilotmd | success | nes-callisto | 660ms | [XtabProvider]
+2026-01-17 16:05:45.035 [info] ccreq:aaf82f1e.copilotmd | markdown
+2026-01-17 16:05:58.111 [info] [fetchCompletions] Request 7c53ec79-1011-460a-8857-0d170a8e602d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 345.22967300000164ms
+2026-01-17 16:05:58.112 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:06:09.251 [info] [fetchCompletions] Request c35be8bb-bf6e-46f6-be9d-497f70fc64c6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 348.14793400000053ms
+2026-01-17 16:06:09.253 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:06:19.611 [info] [fetchCompletions] Request c52b8852-2281-4861-8711-c054dca83f23 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 608.3400879999972ms
+2026-01-17 16:06:19.613 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:06:29.263 [info] [fetchCompletions] Request 8840f19f-ea7c-4f51-a546-3cee1b6f9abc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 724.2957329999917ms
+2026-01-17 16:06:29.266 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:09:53.088 [info] [fetchCompletions] Request 17a990d0-04db-472f-805d-28624712e13c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 517.9450620000134ms
+2026-01-17 16:09:53.145 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:09:55.291 [info] message 0 returned. finish reason: [stop]
+2026-01-17 16:09:55.291 [info] request done: requestId: [2a4e712c-cb27-4534-9cb9-8d9999a352de] model deployment ID: []
+2026-01-17 16:09:55.556 [info] ccreq:c2ce2216.copilotmd | success | nes-callisto | 783ms | [XtabProvider]
+2026-01-17 16:09:55.560 [info] ccreq:16b34c1b.copilotmd | markdown
+2026-01-17 16:10:06.812 [info] [fetchCompletions] Request 0fc3102b-0513-44cf-848a-59180c9b96ee at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 377.53575899999123ms
+2026-01-17 16:10:06.870 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:10:17.160 [info] [fetchCompletions] Request 508ef90a-c92c-42e6-ad7e-739a13a59f07 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 391.50613299995894ms
+2026-01-17 16:10:17.217 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:10:25.371 [info] [fetchCompletions] Request 02135db8-7ce0-4892-a8b1-a0a1f3ab8a3d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 450.5339239999885ms
+2026-01-17 16:10:25.427 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 16:10:27.584 [info] message 0 returned. finish reason: [stop]
+2026-01-17 16:10:27.584 [info] request done: requestId: [c4de4cc4-a0f7-44dc-8489-3479a88b26b0] model deployment ID: []
+2026-01-17 16:10:27.852 [info] ccreq:e9259dd8.copilotmd | success | nes-callisto | 735ms | [XtabProvider]
+2026-01-17 16:10:27.853 [info] ccreq:85d90186.copilotmd | markdown

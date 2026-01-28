@@ -1,0 +1,4078 @@
+{
+  "version": 3,
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_3ff7e061-e838-476e-ab03-6f439be16c95",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 48
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 49
+            },
+            "text": "add icon notifycation , and click to show swaync",
+            "kind": "text"
+          }
+        ],
+        "text": "add icon notifycation , and click to show swaync"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "progressTaskSerialized",
+          "content": {
+            "value": "Optimizing tool selection...",
+            "uris": {}
+          },
+          "progress": []
+        },
+        {
+          "kind": "thinking",
+          "value": "The user wants to add an icon notification to waybar and make it clickable to show swaync (which is a notification daemon for Wayland systems). They want to modify the waybar config.\n\nLet me first read the current config file to understand its structure and then add the notification icon that opens swaync.\n\nI should:\n1. Read the current config.jsonc file\n2. Add a notification module to waybar that shows an icon\n3. Set up a click action to open swaync\n\nLet me start by reading the config file.",
+          "id": "1768638590535",
+          "generatedTitle": "Read configuration file lines 1 to 200"
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "",
+          "metadata": {
+            "vscodeReasoningDone": true,
+            "stopReason": "other"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_readFile"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Reading [](file:///home/phitter/.config/waybar/config.jsonc#1-1), lines 1 to 200",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///home/phitter/.config/waybar/config.jsonc#1-1": {
+                "$mid": 1,
+                "path": "/home/phitter/.config/waybar/config.jsonc",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Read [](file:///home/phitter/.config/waybar/config.jsonc#1-1), lines 1 to 200",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///home/phitter/.config/waybar/config.jsonc#1-1": {
+                "$mid": 1,
+                "path": "/home/phitter/.config/waybar/config.jsonc",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "9b2c5a77-18fd-444c-8ed8-2eafaf6c76b3",
+          "toolId": "copilot_readFile",
+          "generatedTitle": "Read configuration file lines 1 to 200"
+        },
+        {
+          "value": "I'll add a notification module to your waybar config with swaync integration. I'll add it to the modules-right section and create the corresponding configuration. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/waybar/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_multiReplaceString"
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_multiReplaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Multi-Replace String in Files\"",
+          "isConfirmed": {
+            "type": 5
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "fed25c94-d7ae-439f-ae00-259f4a72f3f5",
+          "toolId": "copilot_multiReplaceString"
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.1",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "timestamp": 1768638582434,
+      "modelId": "copilot/auto",
+      "responseId": "response_9e25e5f0-3d7b-49cf-a836-1c06a7f20f54",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "confirmationButtons": [
+            {
+              "data": {
+                "copilotContinueOnError": true
+              },
+              "label": "Try Again"
+            }
+          ],
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "firstProgress": 7277,
+          "totalElapsed": 120667
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "read_file",
+                  "arguments": "{\"filePath\": \"/home/phitter/.config/waybar/config.jsonc\", \"startLine\": 1, \"endLine\": 200}",
+                  "id": "toolu_01TKPhdiPAYw5VgJ6JZF7gTy__vscode-1768638504844"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "678f0d71-5b89-4a62-821a-48e1c4cf718e",
+              "thinking": {
+                "id": "C1TAerHaXQ4WkO9uGPOUhwTkP0DSDq2OyEFrlp+/4Y8mFJTqcR6V5n/51KqZGK1wvgfLphv1GcJm3LFkv+tV4jkLfaAS+USDtlHo53dmbhM1/d2EDGtFevWJfKbHJPlIPyru1ZX5PHtd/YDqGD2z2CSY5mUJboAcGsHsZz8bZkrILdh16mG3WLU7n0aQ+JXQEnEREW3z3X2ApJisaF4Vrf9PmgFJ423NDpBqm2TdtDjUrZG8G/ywIqLBen77gCXUoGvxTd+lmKe2B7aCdo8r78opVZ2DUIOQ6bnKcfyFfBDivQol/JYWACRGQmX8wPsmsTDji8pGKCbzDO9oYuTs/5smjqleCh9VMwqAuqY/5LGtglGA73CIbboh5hPGRDBsLK1sfxNs9KnW2GYnpZG9/n5e6F2CtW+1DYJMWi29rtOur+QBBBdavM+S9OOTE0mgZ9JRZWPqpSfiisbD9V8evJY/kpW7adYPIbRDLpgCgMV9DN0lsY5Oxy5Ybu09aenQxSwvNmnT0UReW0NprEHBIA725ikHW//Z/cJyJxXo5p+8s8pqb5Nh5NT8gRKgTYdQEH/PFYYMDlvX2L9bIhYQEyNwRyfx1DQkNtO6IcWzZq1ZBIX8EqeXwz3i7QRD/B2CUBi0mL5rw/nZ1WQH/IqUH5BNsFf2F91chHmlyT0gSfNKXThx/SF7b37amRQwnuP9FPLu0VvYnDg7HHGbAs2S3R+ZO22m5LxRisI+jJETKh77x/q51lR4WRggNGQvCb4o5uVNAXOoUSae+IyvpGvfixcaPyjZLKUoz/2qeV+eBta3keKREmknnTQ6sgPqeaBQuszOMjua4lLbmrUW4zlxs6YlwuYGb89sQtq+toElyeuKk0ZJTjRFpjAUbDAuBcpXEPGAw0NQJaO7AZLj6qj4bRvTEVsnHqHYi4Z1mHMhfkDBTY9G6XJEavHUTV7fDLl+X3h6UnhT/Xe6UwBvS9eDT+QOYsa1M8LXHXH/ox2PUNKFyMZDNtz2gD0m5tviSORkkGhn8iSZdhiZSEV+m43Xqy4oI0WnDQtlD9Ld8GC0Y1/3oqNhWOetcXM1+ClFluRXwZBxYx3EErHOvamExm3H3eVViRszkPZssgfn7m+EMtXdTnI5/3bYTfe9xoHm0mGO6QOfN5EJqNpnDYHR1x0vBNlUZONeLq9EzHC9ljPFze6gyfjWu/A91NiWJ9mqORJDgSr/m58F+UMgyFftxFx9U/wTIl5LYDSt8Rg5eCbnIRQ5F/S04oSybxJ6QDQF85viJ6yNnL5ZSvBOjiUcJKgYmQVev2dKAkaN6NKCn49Q0NEteIVLff5j9Zj7cUHMfF+EFsy+56eGXk0hrUOvDE9IRAo94ey9Q9OTt0jdUTV+baMhx9eiaNNE4C0AiZUQRtdnQOjY8PUva+66JViq5ZhntnJGFbI18RA80zG65M3Hia3aHebBI7eTUNxRUXUk4/HCMWx7MObS90Ep16ExQLQwAv6seb7Kr4QCQCdw+jQ3a0QzXRPfqfUXa36UgwdYyYTjvfwSuDe9CqDNyybXcSQL2HU=",
+                "text": "The user wants to add an icon notification to waybar and make it clickable to show swaync (which is a notification daemon for Wayland systems). They want to modify the waybar config.\n\nLet me first read the current config file to understand its structure and then add the notification icon that opens swaync.\n\nI should:\n1. Read the current config.jsonc file\n2. Add a notification module to waybar that shows an icon\n3. Set up a click action to open swaync\n\nLet me start by reading the config file.",
+                "encrypted": "C1TAerHaXQ4WkO9uGPOUhwTkP0DSDq2OyEFrlp+/4Y8mFJTqcR6V5n/51KqZGK1wvgfLphv1GcJm3LFkv+tV4jkLfaAS+USDtlHo53dmbhM1/d2EDGtFevWJfKbHJPlIPyru1ZX5PHtd/YDqGD2z2CSY5mUJboAcGsHsZz8bZkrILdh16mG3WLU7n0aQ+JXQEnEREW3z3X2ApJisaF4Vrf9PmgFJ423NDpBqm2TdtDjUrZG8G/ywIqLBen77gCXUoGvxTd+lmKe2B7aCdo8r78opVZ2DUIOQ6bnKcfyFfBDivQol/JYWACRGQmX8wPsmsTDji8pGKCbzDO9oYuTs/5smjqleCh9VMwqAuqY/5LGtglGA73CIbboh5hPGRDBsLK1sfxNs9KnW2GYnpZG9/n5e6F2CtW+1DYJMWi29rtOur+QBBBdavM+S9OOTE0mgZ9JRZWPqpSfiisbD9V8evJY/kpW7adYPIbRDLpgCgMV9DN0lsY5Oxy5Ybu09aenQxSwvNmnT0UReW0NprEHBIA725ikHW//Z/cJyJxXo5p+8s8pqb5Nh5NT8gRKgTYdQEH/PFYYMDlvX2L9bIhYQEyNwRyfx1DQkNtO6IcWzZq1ZBIX8EqeXwz3i7QRD/B2CUBi0mL5rw/nZ1WQH/IqUH5BNsFf2F91chHmlyT0gSfNKXThx/SF7b37amRQwnuP9FPLu0VvYnDg7HHGbAs2S3R+ZO22m5LxRisI+jJETKh77x/q51lR4WRggNGQvCb4o5uVNAXOoUSae+IyvpGvfixcaPyjZLKUoz/2qeV+eBta3keKREmknnTQ6sgPqeaBQuszOMjua4lLbmrUW4zlxs6YlwuYGb89sQtq+toElyeuKk0ZJTjRFpjAUbDAuBcpXEPGAw0NQJaO7AZLj6qj4bRvTEVsnHqHYi4Z1mHMhfkDBTY9G6XJEavHUTV7fDLl+X3h6UnhT/Xe6UwBvS9eDT+QOYsa1M8LXHXH/ox2PUNKFyMZDNtz2gD0m5tviSORkkGhn8iSZdhiZSEV+m43Xqy4oI0WnDQtlD9Ld8GC0Y1/3oqNhWOetcXM1+ClFluRXwZBxYx3EErHOvamExm3H3eVViRszkPZssgfn7m+EMtXdTnI5/3bYTfe9xoHm0mGO6QOfN5EJqNpnDYHR1x0vBNlUZONeLq9EzHC9ljPFze6gyfjWu/A91NiWJ9mqORJDgSr/m58F+UMgyFftxFx9U/wTIl5LYDSt8Rg5eCbnIRQ5F/S04oSybxJ6QDQF85viJ6yNnL5ZSvBOjiUcJKgYmQVev2dKAkaN6NKCn49Q0NEteIVLff5j9Zj7cUHMfF+EFsy+56eGXk0hrUOvDE9IRAo94ey9Q9OTt0jdUTV+baMhx9eiaNNE4C0AiZUQRtdnQOjY8PUva+66JViq5ZhntnJGFbI18RA80zG65M3Hia3aHebBI7eTUNxRUXUk4/HCMWx7MObS90Ep16ExQLQwAv6seb7Kr4QCQCdw+jQ3a0QzXRPfqfUXa36UgwdYyYTjvfwSuDe9CqDNyybXcSQL2HU="
+              }
+            },
+            {
+              "response": "I'll add a notification module to your waybar config with swaync integration. I'll add it to the modules-right section and create the corresponding configuration. ",
+              "toolCalls": [
+                {
+                  "name": "multi_replace_string_in_file",
+                  "arguments": "{\"explanation\": \"Add notification icon module to waybar that opens swaync on click\", \"replacements\": [{\"filePath\":\"/home/phitter/.config/waybar/config.jsonc\",\"oldString\":\"  \\\"modules-right\\\": [\\n    \\\"network\\\",\\n    \\\"disk\\\",\\n    \\\"cpu\\\",\\n    \\\"custom/cpu_temp\\\",\\n    \\\"backlight\\\",\\n    \\\"custom/memory\\\",\\n    \\\"wireplumber\\\",\\n    \\\"battery\\\"\\n  ],\",\"newString\":\"  \\\"modules-right\\\": [\\n    \\\"custom/notification\\\",\\n    \\\"network\\\",\\n    \\\"disk\\\",\\n    \\\"cpu\\\",\\n    \\\"custom/cpu_temp\\\",\\n    \\\"backlight\\\",\\n    \\\"custom/memory\\\",\\n    \\\"wireplumber\\\",\\n    \\\"battery\\\"\\n  ],\"},{\"filePath\":\"/home/phitter/.config/waybar/config.jsonc\",\"oldString\":\"  \\\"clock\\\": {\\n    // \\\"timezone\\\": \\\"Asian/Phnom Penh\\\",\\n    \\\"format\\\": \\\"<span color='#202020' bgcolor='#8ec07c' >  </span> {:%I:%M:%S %p}\\\",\\n    \\\"tooltip\\\": false,\\n    \\\"interval\\\": 1\\n  }\\n}\",\"newString\":\"  \\\"clock\\\": {\\n    // \\\"timezone\\\": \\\"Asian/Phnom Penh\\\",\\n    \\\"format\\\": \\\"<span color='#202020' bgcolor='#8ec07c' >  </span> {:%I:%M:%S %p}\\\",\\n    \\\"tooltip\\\": false,\\n    \\\"interval\\\": 1\\n  },\\n  \\\"custom/notification\\\": {\\n    \\\"tooltip\\\": false,\\n    \\\"format\\\": \\\"<span color='#202020' bgcolor='#d3869b' > 󰂚 </span>\\\",\\n    \\\"on-click\\\": \\\"swaync\\\"\\n  }\\n}\"}]}",
+                  "id": "toolu_01JSTCXcKEcMWxnj1aikU15B__vscode-1768638504845"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "1af29695-225d-4b7a-9b52-a53695516d26"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "multi_replace_string_in_file",
+                  "arguments": "{\"explanation\": \"Add notification icon module to waybar that opens swaync on click\", \"replacements\": [{\"filePath\":\"/home/phitter/.config/waybar/config.jsonc\",\"oldString\":\"  \\\"modules-right\\\": [\\n    \\\"network\\\",\\n    \\\"disk\\\",\\n    \\\"cpu\\\",\\n    \\\"custom/cpu_temp\\\",\\n    \\\"backlight\\\",\\n    \\\"custom/memory\\\",\\n    \\\"wireplumber\\\",\\n    \\\"battery\\\"\\n  ],\",\"newString\":\"  \\\"modules-right\\\": [\\n    \\\"custom/notification\\\",\\n    \\\"network\\\",\\n    \\\"disk\\\",\\n    \\\"cpu\\\",\\n    \\\"custom/cpu_temp\\\",\\n    \\\"backlight\\\",\\n    \\\"custom/memory\\\",\\n    \\\"wireplumber\\\",\\n    \\\"battery\\\"\\n  ],\",\"explanation\":\"Add notification module to modules-right\"},{\"filePath\":\"/home/phitter/.config/waybar/config.jsonc\",\"oldString\":\"  \\\"clock\\\": {\\n    // \\\"timezone\\\": \\\"Asian/Phnom Penh\\\",\\n    \\\"format\\\": \\\"<span color='#202020' bgcolor='#8ec07c' >  </span> {:%I:%M:%S %p}\\\",\\n    \\\"tooltip\\\": false,\\n    \\\"interval\\\": 1\\n  }\\n}\",\"newString\":\"  \\\"clock\\\": {\\n    // \\\"timezone\\\": \\\"Asian/Phnom Penh\\\",\\n    \\\"format\\\": \\\"<span color='#202020' bgcolor='#8ec07c' >  </span> {:%I:%M:%S %p}\\\",\\n    \\\"tooltip\\\": false,\\n    \\\"interval\\\": 1\\n  },\\n  \\\"custom/notification\\\": {\\n    \\\"tooltip\\\": false,\\n    \\\"format\\\": \\\"<span color='#202020' bgcolor='#d3869b' > 󰵄 </span>\\\",\\n    \\\"on-click\\\": \\\"swaync\\\"\\n  }\\n}\",\"explanation\":\"Add notification icon configuration with swaync click handler\"}]}",
+                  "id": "toolu_01P5xsnfNbaEubigXZmrnahE__vscode-1768638504846"
+                }
+              ],
+              "toolInputRetry": 1,
+              "id": "1b366f96-bea5-4c69-aa19-98835a92aea3"
+            },
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "3cffbaae-2677-4275-a8cc-baeb50569dbc"
+            }
+          ],
+          "toolCallResults": {
+            "toolu_01TKPhdiPAYw5VgJ6JZF7gTy__vscode-1768638504844": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "jfe",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "File: `",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "/home/phitter/.config/waybar/config.jsonc",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "`. Lines ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "1",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " to ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "200",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " (",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "201",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " lines total): ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 1,
+                          "ctor": 2,
+                          "ctorName": "Kt",
+                          "children": [
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 202,
+                                  "text": "```jsonc\n",
+                                  "references": [
+                                    {
+                                      "anchor": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/phitter/.config/waybar/config.jsonc",
+                                        "external": "file:///home/phitter/.config/waybar/config.jsonc",
+                                        "path": "/home/phitter/.config/waybar/config.jsonc",
+                                        "scheme": "file"
+                                      },
+                                      "options": {
+                                        "isFromTool": true
+                                      }
+                                    }
+                                  ],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 202
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 201,
+                                  "text": "{\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 201
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 200,
+                                  "text": "  \"layer\": \"top\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 200
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 199,
+                                  "text": "  \"height\": 20,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 199
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 198,
+                                  "text": "  \"spacing\": 4,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 198
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 197,
+                                  "text": "  \"margin-top\": 5,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 197
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 196,
+                                  "text": "  \"margin-right\": 5,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 196
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 195,
+                                  "text": "  \"margin-left\": 5,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 195
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 194,
+                                  "text": "  \"modules-left\": [\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 194
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 193,
+                                  "text": "    \"custom/rofi\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 193
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 192,
+                                  "text": "    \"sway/workspaces\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 192
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 191,
+                                  "text": "    \"sway/window\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 191
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 190,
+                                  "text": "    \"hyprland/workspaces\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 190
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 189,
+                                  "text": "    \"hyprland/window\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 189
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 188,
+                                  "text": "    \"tray\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 188
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 187,
+                                  "text": "    \"sway/mode\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 187
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 186,
+                                  "text": "    \"hyprland/submap\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 186
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 185,
+                                  "text": "  ],\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 185
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 184,
+                                  "text": "  \"modules-center\": [\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 184
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 183,
+                                  "text": "    \"clock\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 183
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 182,
+                                  "text": "  ],\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 182
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 181,
+                                  "text": "  \"modules-right\": [\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 181
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 180,
+                                  "text": "    \"network\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 180
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 179,
+                                  "text": "    \"disk\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 179
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 178,
+                                  "text": "    \"cpu\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 178
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 177,
+                                  "text": "    \"custom/cpu_temp\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 177
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 176,
+                                  "text": "    \"backlight\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 176
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 175,
+                                  "text": "    \"custom/memory\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 175
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 174,
+                                  "text": "    \"wireplumber\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 174
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 173,
+                                  "text": "    \"battery\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 173
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 172,
+                                  "text": "  ],\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 172
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 171,
+                                  "text": "  \"custom/rofi\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 171
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 170,
+                                  "text": "    \"format\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 170
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 169,
+                                  "text": "    \"on-click\": \"rofi -show drun -disable-history -show-icons\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 169
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 168,
+                                  "text": "    \"on-click-right\": \"~/.config/custom_scripts/power.sh\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 168
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 167,
+                                  "text": "    \"escape\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 167
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 166,
+                                  "text": "    \"tooltip\": false\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 166
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 165,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 165
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 164,
+                                  "text": "  // Modules configuration\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 164
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 163,
+                                  "text": "  \"sway/workspaces\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 163
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 162,
+                                  "text": "    \"disable-scroll\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 162
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 161,
+                                  "text": "    \"active-only\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 161
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 160,
+                                  "text": "    \"all-outputs\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 160
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 159,
+                                  "text": "    \"warp-on-scroll\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 159
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 158,
+                                  "text": "    \"format\": \"{icon}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 158
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 157,
+                                  "text": "    \"format-icons\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 157
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 156,
+                                  "text": "      \"1\": \"<span>󰧨</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 156
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 155,
+                                  "text": "      \"2\": \"<span>󰈹</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 155
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 154,
+                                  "text": "      \"3\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 154
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 153,
+                                  "text": "      \"4\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 153
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 152,
+                                  "text": "      \"5\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 152
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 151,
+                                  "text": "      \"6\": \"<span>󰭛</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 151
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 150,
+                                  "text": "      \"7\": \"<span>󱓷</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 150
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 149,
+                                  "text": "      \"8\": \"<span>󰚀</span>\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 149
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 148,
+                                  "text": "    }\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 148
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 147,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 147
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 146,
+                                  "text": "  \"sway/window\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 146
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 145,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#d3869b' > 󰣆 </span> {app_id}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 145
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 144,
+                                  "text": "    \"separate-outputs\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 144
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 143,
+                                  "text": "    \"icon\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 143
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 142,
+                                  "text": "    \"tooltip\": false\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 142
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 141,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 141
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 140,
+                                  "text": "  \"sway/mode\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 140
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 139,
+                                  "text": "    \"format\": \" {}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 139
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 138,
+                                  "text": "    \"max-length\": 50\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 138
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 137,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 137
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 136,
+                                  "text": "  \"hyprland/workspaces\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 136
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 135,
+                                  "text": "    \"disable-scroll\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 135
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 134,
+                                  "text": "    \"active-only\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 134
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 133,
+                                  "text": "    \"all-outputs\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 133
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 132,
+                                  "text": "    \"warp-on-scroll\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 132
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 131,
+                                  "text": "    \"format\": \"{icon}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 131
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 130,
+                                  "text": "    \"format-icons\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 130
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 129,
+                                  "text": "      \"1\": \"<span>󰧨</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 129
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 128,
+                                  "text": "      \"2\": \"<span>󰈹</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 128
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 127,
+                                  "text": "      \"3\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 127
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 126,
+                                  "text": "      \"4\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 126
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 125,
+                                  "text": "      \"5\": \"<span></span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 125
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 124,
+                                  "text": "      \"6\": \"<span>󰭛</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 124
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 123,
+                                  "text": "      \"7\": \"<span>󱓷</span>\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 123
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 122,
+                                  "text": "      \"8\": \"<span>󰚀</span>\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 122
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 121,
+                                  "text": "    }\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 121
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 120,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 120
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 119,
+                                  "text": "  \"hyprland/window\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 119
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 118,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#d3869b' > 󰣆 </span> {class}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 118
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 117,
+                                  "text": "    \"separate-outputs\": true,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 117
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 116,
+                                  "text": "    \"icon\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 116
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 115,
+                                  "text": "    \"tooltip\": false\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 115
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 114,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 114
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 113,
+                                  "text": "  \"hyprland/submap\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 113
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 112,
+                                  "text": "    \"format\": \" {}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 112
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 111,
+                                  "text": "    \"max-length\": 50\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 111
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 110,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 110
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 109,
+                                  "text": "  \"tray\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 109
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 108,
+                                  "text": "    \"icon-size\": 14,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 108
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 107,
+                                  "text": "    \"spacing\": 8\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 107
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 106,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 106
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 105,
+                                  "text": "  \"disk\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 105
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 104,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#ea6962' >  </span> {free}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 104
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 103,
+                                  "text": "    \"interval\": 20\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 103
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 102,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 102
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 101,
+                                  "text": "  \"cpu\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 101
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 100,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#e78a4e' >  </span> {usage}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 100
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 99,
+                                  "text": "    \"tooltip\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 99
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 98,
+                                  "text": "    \"interval\": 1\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 98
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 97,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 97
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 96,
+                                  "text": "  \"custom/cpu_temp\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 96
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 95,
+                                  "text": "    \"exec\": \"~/.config/waybar/scripts/waybarTemp.sh\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 95
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 94,
+                                  "text": "    \"return-type\": \"json\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 94
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 93,
+                                  "text": "    \"interval\": 2,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 93
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 92,
+                                  "text": "    \"format\": \"{}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 92
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 91,
+                                  "text": "    \"tooltip\": false\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 91
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 90,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 90
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 89,
+                                  "text": "  \"temperature\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 89
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 88,
+                                  "text": "    \"tooltip\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 88
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 87,
+                                  "text": "    \"thermal-zone\": 2,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 87
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 86,
+                                  "text": "    \"hwmon-path\": \"/sys/class/hwmon/hwmon2/temp1_input\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 86
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 85,
+                                  "text": "    \"critical-threshold\": 70,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 85
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 84,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#d8a657' > 󰴈 </span> {temperatureC}°C\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 84
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 83,
+                                  "text": "    \"format-critical\": \"<span color='#202020' bgcolor='#cc241d' >  </span> {temperatureC}°C\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 83
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 82,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 82
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 81,
+                                  "text": "  \"backlight\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 81
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 80,
+                                  "text": "    // \"device\": \"acpi_video1\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 80
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 79,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#f6c657' > 󰞏 </span> {percent}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 79
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 78,
+                                  "text": "    \"tooltip\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 78
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 77,
+                                  "text": "    \"on-click-right\": \"~/.config/custom_scripts/wlsunset.sh\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 77
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 76,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 76
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 75,
+                                  "text": "  \"custom/memory\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 75
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 74,
+                                  "text": "    \"exec\": \"~/.config/waybar/scripts/memory_usage.sh\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 74
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 73,
+                                  "text": "    \"interval\": 2,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 73
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 72,
+                                  "text": "    \"return-type\": \"json\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 72
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 71,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#458588' >  </span> {}\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 71
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 70,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 70
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 69,
+                                  "text": "  \"wireplumber\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 69
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 68,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#83a598' >  </span> {volume}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 68
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 67,
+                                  "text": "    \"format-muted\": \"<span color='#202020' bgcolor='#ea6962' >  </span> {volume}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 67
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 66,
+                                  "text": "    \"format-bluetooth\": \"<span color='#202020' bgcolor='#83a598' > 󰂰 </span> {volume}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 66
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 65,
+                                  "text": "    \"format-bluetooth-muted\": \"<span color='#202020' bgcolor='#ea6962' > 󰂲 </span> {volume}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 65
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 64,
+                                  "text": "    \"format-source\": \"{volume}% \",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 64
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 63,
+                                  "text": "    \"on-click\": \"pactl set-sink-mute @DEFAULT_SINK@ toggle\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 63
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 62,
+                                  "text": "    \"on-click-right\": \"blueman-manager\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 62
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 61,
+                                  "text": "    \"tooltip\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 61
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 60,
+                                  "text": "    \"max-volume\": 130\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 60
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 59,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 59
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 58,
+                                  "text": "  \"battery#bat2\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 58
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 57,
+                                  "text": "    \"bat\": \"BAT2\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 57
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 56,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 56
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 55,
+                                  "text": "  \"battery\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 55
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 54,
+                                  "text": "    \"interval\": 1,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 54
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 53,
+                                  "text": "    \"states\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 53
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 52,
+                                  "text": "      \"good\": 99,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 52
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 51,
+                                  "text": "      \"warning\": 30,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 51
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 50,
+                                  "text": "      \"critical\": 20\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 50
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 49,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 49
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 48,
+                                  "text": "    \"format-icons\": [\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 48
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 47,
+                                  "text": "      \"󰂎\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 47
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 46,
+                                  "text": "      \"󰁺\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 46
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 45,
+                                  "text": "      \"󰁻\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 45
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 44,
+                                  "text": "      \"󰁽\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 44
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 43,
+                                  "text": "      \"󰁾\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 43
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 42,
+                                  "text": "      \"󰁿\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 42
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 41,
+                                  "text": "      \"󰂀\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 41
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 40,
+                                  "text": "      \"󰂁\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 40
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 39,
+                                  "text": "      \"󰂂\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 39
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 38,
+                                  "text": "      \"󰁹\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 38
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 37,
+                                  "text": "    ],\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 37
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 36,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#689d6a' > {icon} </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 36
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 35,
+                                  "text": "    \"format-critical\": \"<span color='#202020' bgcolor='#cc241d' > {icon} </span> {capacity}%!!\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 35
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 34,
+                                  "text": "    \"format-warning\": \"<span color='#202020' bgcolor='#e78a4e' > {icon} </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 34
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 33,
+                                  "text": "    \"format-full\": \"<span color='#202020' bgcolor='#689d6a' > {icon} </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 33
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 32,
+                                  "text": "    \"format-charging\": \"<span color='#202020' bgcolor='#689d6a' > 󰂅 </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 32
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 31,
+                                  "text": "    \"format-charging-warning\": \"<span color='#202020' bgcolor='#e78a4e' > 󰢝 </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 31
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 30,
+                                  "text": "    \"format-charging-critical\": \"<span color='#202020' bgcolor='#cc241d' > 󰢜 </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 30
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 29,
+                                  "text": "    \"format-plugged\": \"<span color='#202020' bgcolor='#689d6a' > 󰂅 </span> {capacity}%\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 29
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 28,
+                                  "text": "    \"format-alt\": \"<span color='#202020' bgcolor='#689d6a' > 󱧥 </span> {time}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 28
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 27,
+                                  "text": "    \"tooltip\": false\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 27
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 26,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 26
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 25,
+                                  "text": "  \"network\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 25
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 24,
+                                  "text": "    \"interval\": 2,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 24
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 23,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#d3869b'> 󱘖 </span> {bandwidthDownBits}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 23
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 22,
+                                  "text": "    \"format-wifi\": \"<span color='#202020' bgcolor='#d3869b'> {icon} </span> {bandwidthDownBits}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 22
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 21,
+                                  "text": "    \"format-ethernet\": \"<span color='#202020' bgcolor='#d3869b'> 󰈀 </span> {bandwidthDownBits}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 21
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 20,
+                                  "text": "    \"format-icons\": [\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 20
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 19,
+                                  "text": "      \"󰤫\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 19
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 18,
+                                  "text": "      \"󰤟\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 18
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 17,
+                                  "text": "      \"󰤢\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 17
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 16,
+                                  "text": "      \"󰤥\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 16
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 15,
+                                  "text": "      \"󰤨\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 15
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 14,
+                                  "text": "    ],\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 14
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 13,
+                                  "text": "    \"tooltip\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 13
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 12,
+                                  "text": "    \"states\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 12
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 11,
+                                  "text": "      \"normal\": 25\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 11
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 10,
+                                  "text": "    }\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 10
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 9,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 9
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 8,
+                                  "text": "  \"clock\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 8
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 7,
+                                  "text": "    // \"timezone\": \"Asian/Phnom Penh\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 7
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 6,
+                                  "text": "    \"format\": \"<span color='#202020' bgcolor='#8ec07c' >  </span> {:%I:%M:%S %p}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 6
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 5,
+                                  "text": "    \"tooltip\": false,\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 5
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 4,
+                                  "text": "    \"interval\": 1\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 4
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 3,
+                                  "text": "  }\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 3
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 2,
+                                  "text": "}\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 2
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 202,
+                                  "text": "```",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 202
+                              },
+                              "references": []
+                            }
+                          ],
+                          "props": {},
+                          "references": []
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "toolu_01JSTCXcKEcMWxnj1aikU15B__vscode-1768638504845": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "ERROR: Your input to the tool was invalid (must have required property 'explanation')\nPlease check your input and try again."
+                }
+              ]
+            },
+            "toolu_01P5xsnfNbaEubigXZmrnahE__vscode-1768638504846": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "The user chose to skip the tool call, they want to proceed without running it"
+                }
+              ]
+            }
+          },
+          "modelMessageId": "cd7d5cc5-c827-44cd-9f2b-094eb5af1fab",
+          "responseId": "80d7f1e5-f17e-432b-bdb6-2472c9087d28",
+          "sessionId": "c52f1193-f7a9-4024-8b9c-50097d4b5dc8",
+          "agentId": "github.copilot.editsAgent"
+        },
+        "details": "Claude Haiku 4.5 • 1x"
+      },
+      "followups": [],
+      "modelState": {
+        "value": 2,
+        "completedAt": 1768638704867
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timeSpentWaiting": 92010
+    }
+  ],
+  "sessionId": "33f89fdd-ff07-4d1b-ae5e-35bfc580b7e6",
+  "creationDate": 1768638503078,
+  "lastMessageDate": 1768638582435,
+  "customTitle": "Adding Notification Icon with Click Action",
+  "hasPendingEdits": false,
+  "inputState": {
+    "contrib": {
+      "chatDynamicVariableModel": []
+    },
+    "attachments": [],
+    "mode": {
+      "id": "agent",
+      "kind": "agent"
+    },
+    "selectedModel": {
+      "identifier": "copilot/auto",
+      "metadata": {
+        "extension": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "id": "auto",
+        "vendor": "copilot",
+        "name": "Auto",
+        "family": "claude-haiku-4.5",
+        "detail": "1x",
+        "tooltip": "Auto selects the best model for your request based on capacity and performance.",
+        "version": "claude-haiku-4.5",
+        "maxInputTokens": 127805,
+        "maxOutputTokens": 16000,
+        "auth": {
+          "providerLabel": "GitHub Copilot Chat",
+          "accountLabel": "buoysophit"
+        },
+        "isDefault": true,
+        "isUserSelectable": true,
+        "modelPickerCategory": {
+          "label": "",
+          "order": -9007199254740991
+        },
+        "capabilities": {
+          "vision": true,
+          "toolCalling": true,
+          "agentMode": true
+        }
+      }
+    },
+    "inputText": "",
+    "selections": [
+      {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1,
+        "selectionStartLineNumber": 1,
+        "selectionStartColumn": 1,
+        "positionLineNumber": 1,
+        "positionColumn": 1
+      }
+    ]
+  }
+}

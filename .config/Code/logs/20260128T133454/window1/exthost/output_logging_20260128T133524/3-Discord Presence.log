@@ -1,0 +1,5 @@
+[28/01/2026 13:35:31 - DEBUG] Registered instance c172c04a-5f62-42a7-8f9b-c705fa15716d1769582123944-1769582131345-mzdhky
+[28/01/2026 13:35:31 - INFO] Discord Presence activated
+[28/01/2026 13:35:31 - INFO] Creating discord-rpc client
+[28/01/2026 13:35:32 - INFO] Successfully connected to Discord
+[28/01/2026 13:35:32 - DEBUG] Loading git extension

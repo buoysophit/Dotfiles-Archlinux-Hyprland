@@ -1,0 +1,45 @@
+[4:09:10 PM] [INFO] setStatusBarItem: status bar item is undefined
+[4:09:10 PM] [INFO] Discord Rich Presence for VS Code activated.
+[4:09:10 PM] [INFO] Registered Discord Rich Presence commands
+[4:09:10 PM] [INFO] Successfully connected to Discord
+[4:09:10 PM] [INFO] [004] Debug: Enabling Discord Rich Presence
+[4:09:10 PM] [INFO] [004] Debug: Logging in with client ID "782685898163617802"
+[4:09:10 PM] [INFO] [004] Debug: Login - isConnected true isReady 782685898163617802
+[4:09:10 PM] [INFO] [004] Debug: Login - [object Object]
+[4:09:10 PM] [INFO] [004] Debug: Client Should be logged in
+[4:09:10 PM] [INFO] [004] Debug: Enable - [object Object]
+[4:09:10 PM] [INFO] [004] Debug: Enabled - isConnected true isReady 782685898163617802
+[4:09:10 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:09:10 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:09:10 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:09:10 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:09:10 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:09:11 PM] [INFO] onDidChangeWindowState()
+[4:09:18 PM] [INFO] onDidChangeWindowState()
+[4:09:18 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:09:18 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:09:18 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:09:18 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:09:18 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:09:18 PM] [INFO] onDidChangeWindowState()
+[4:09:19 PM] [INFO] onDidChangeWindowState()
+[4:09:19 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:09:19 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:09:19 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:09:19 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:09:19 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:09:19 PM] [INFO] Discord Rich Presence for VS Code deactivated.
+[4:09:19 PM] [INFO] setStatusBarItem: status bar item is undefined
+[4:09:19 PM] [INFO] [004] Destroyed Discord RPC client

@@ -1,0 +1,65 @@
+[1:35:31 PM] [INFO] setStatusBarItem: status bar item is undefined
+[1:35:31 PM] [INFO] Discord Rich Presence for VS Code activated.
+[1:35:31 PM] [INFO] Registered Discord Rich Presence commands
+[1:35:31 PM] [INFO] Successfully connected to Discord
+[1:35:31 PM] [INFO] [004] Debug: Enabling Discord Rich Presence
+[1:35:31 PM] [INFO] [004] Debug: Logging in with client ID "782685898163617802"
+[1:35:31 PM] [INFO] [004] Debug: Login - isConnected true isReady 782685898163617802
+[1:35:31 PM] [INFO] [004] Debug: Login - [object Object]
+[1:35:31 PM] [INFO] [004] Debug: Client Should be logged in
+[1:35:31 PM] [INFO] [004] Debug: Enable - [object Object]
+[1:35:31 PM] [INFO] [004] Debug: Enabled - isConnected true isReady 782685898163617802
+[1:35:31 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[1:35:31 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:31 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:31 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[1:35:31 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[1:35:41 PM] [INFO] onDidChangeWindowState()
+[1:35:44 PM] [INFO] onDidChangeWindowState()
+[1:35:44 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[1:35:44 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:44 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:44 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[1:35:44 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[1:35:45 PM] [INFO] onDidChangeWindowState()
+[1:35:45 PM] [INFO] onDidChangeWindowState()
+[1:35:45 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[1:35:45 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:45 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:45 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[1:35:45 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[1:35:45 PM] [INFO] onDidChangeWindowState()
+[1:35:46 PM] [INFO] onDidChangeWindowState()
+[1:35:46 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[1:35:46 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:46 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:46 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[1:35:46 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[1:35:46 PM] [INFO] onDidChangeWindowState()
+[1:35:46 PM] [INFO] onDidChangeWindowState()
+[1:35:46 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[1:35:46 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:46 PM] [INFO] [activity.ts] createButton(): enabled false
+[1:35:46 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[1:35:46 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[1:35:47 PM] [INFO] onDidChangeWindowState()

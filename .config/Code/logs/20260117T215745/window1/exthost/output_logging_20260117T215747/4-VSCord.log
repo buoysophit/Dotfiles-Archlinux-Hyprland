@@ -1,0 +1,556 @@
+[9:57:51 PM] [INFO] setStatusBarItem: status bar item is undefined
+[9:57:51 PM] [INFO] Discord Rich Presence for VS Code activated.
+[9:57:51 PM] [INFO] Registered Discord Rich Presence commands
+[9:57:51 PM] [INFO] Successfully connected to Discord
+[9:57:51 PM] [INFO] [004] Debug: Enabling Discord Rich Presence
+[9:57:51 PM] [INFO] [004] Debug: Logging in with client ID "782685898163617802"
+[9:57:51 PM] [INFO] [004] Debug: Login - isConnected true isReady 782685898163617802
+[9:57:51 PM] [INFO] [004] Debug: Login - [object Object]
+[9:57:51 PM] [INFO] [004] Debug: Client Should be logged in
+[9:57:51 PM] [INFO] [004] Debug: Enable - [object Object]
+[9:57:51 PM] [INFO] [004] Debug: Enabled - isConnected true isReady 782685898163617802
+[9:57:52 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:57:52 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:52 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:52 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:57:52 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:57:52 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:52 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:57:52 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:52 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:52 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:57:52 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:54 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:57:54 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:54 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:54 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:57:54 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:57:57 PM] [INFO] onDidChangeTextEditorSelection()
+[9:57:57 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:57:57 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:57 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:57:57 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:57:57 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:00 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:00 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:00 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:00 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:00 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:00 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:01 PM] [INFO] onDidChangeTextDocument()
+[9:58:01 PM] [INFO] onDidChangeTextDocument()
+[9:58:01 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:02 PM] [INFO] onDidChangeTextDocument()
+[9:58:02 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:02 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:02 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:02 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:02 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:02 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:03 PM] [INFO] onDidChangeTextDocument()
+[9:58:03 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:04 PM] [INFO] onDidChangeTextDocument()
+[9:58:04 PM] [INFO] onDidChangeTextDocument()
+[9:58:04 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:04 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:04 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:04 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:04 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:05 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:06 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:06 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:06 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:06 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:06 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:06 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:06 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:07 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:08 PM] [INFO] onDidChangeTextDocument()
+[9:58:08 PM] [INFO] onDidChangeTextDocument()
+[9:58:08 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:08 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:08 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:08 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:08 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:08 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:09 PM] [INFO] onDidChangeTextDocument()
+[9:58:09 PM] [INFO] onDidChangeTextDocument()
+[9:58:09 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:10 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:10 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:10 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:10 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:11 PM] [INFO] onDidChangeTextDocument()
+[9:58:11 PM] [INFO] onDidChangeTextDocument()
+[9:58:11 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:12 PM] [INFO] onDidChangeTextDocument()
+[9:58:12 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:12 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:12 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:12 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:12 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:12 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:13 PM] [INFO] onDidChangeTextDocument()
+[9:58:13 PM] [INFO] onDidChangeTextDocument()
+[9:58:14 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:14 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:14 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:14 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:14 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:16 PM] [INFO] onDidChangeTextDocument()
+[9:58:16 PM] [INFO] onDidChangeTextDocument()
+[9:58:16 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:16 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:16 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:16 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:16 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:16 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:17 PM] [INFO] onDidChangeTextDocument()
+[9:58:17 PM] [INFO] onDidChangeTextDocument()
+[9:58:18 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:18 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:18 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:18 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:18 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:18 PM] [INFO] onDidChangeWindowState()
+[9:58:21 PM] [INFO] onDidChangeWindowState()
+[9:58:21 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:21 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:21 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:21 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:21 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:22 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:22 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:22 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:22 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:22 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:22 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:23 PM] [INFO] onDidChangeWindowState()
+[9:58:51 PM] [INFO] onDidChangeWindowState()
+[9:58:51 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:51 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:51 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:51 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:51 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:53 PM] [INFO] onDidChangeTextDocument()
+[9:58:53 PM] [INFO] onDidChangeTextDocument()
+[9:58:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:53 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:53 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:53 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:53 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:53 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:53 PM] [INFO] onDidChangeTextDocument()
+[9:58:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:53 PM] [INFO] onDidChangeTextDocument()
+[9:58:53 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:54 PM] [INFO] onDidChangeTextDocument()
+[9:58:54 PM] [INFO] onDidChangeTextDocument()
+[9:58:55 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:55 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:55 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:55 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:55 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:55 PM] [INFO] onDidChangeTextDocument()
+[9:58:55 PM] [INFO] onDidChangeTextDocument()
+[9:58:55 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:55 PM] [INFO] onDidChangeTextDocument()
+[9:58:55 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:56 PM] [INFO] onDidChangeTextDocument()
+[9:58:56 PM] [INFO] onDidChangeTextDocument()
+[9:58:57 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:57 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:57 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:57 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:57 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:57 PM] [INFO] onDidChangeTextDocument()
+[9:58:57 PM] [INFO] onDidChangeTextDocument()
+[9:58:57 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:57 PM] [INFO] onDidChangeTextDocument()
+[9:58:57 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:58 PM] [INFO] onDidChangeTextDocument()
+[9:58:58 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:59 PM] [INFO] onDidChangeTextDocument()
+[9:58:59 PM] [INFO] onDidChangeTextDocument()
+[9:58:59 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:58:59 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:59 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:58:59 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:58:59 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:58:59 PM] [INFO] onDidChangeTextDocument()
+[9:58:59 PM] [INFO] onDidChangeTextDocument()
+[9:58:59 PM] [INFO] onDidChangeTextEditorSelection()
+[9:58:59 PM] [INFO] onDidChangeTextDocument()
+[9:58:59 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:00 PM] [INFO] onDidChangeTextDocument()
+[9:59:00 PM] [INFO] onDidChangeTextDocument()
+[9:59:00 PM] [INFO] onDidChangeTextDocument()
+[9:59:00 PM] [INFO] onDidChangeTextDocument()
+[9:59:00 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:01 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:01 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:01 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:01 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:01 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:01 PM] [INFO] onDidChangeTextDocument()
+[9:59:01 PM] [INFO] onDidChangeTextDocument()
+[9:59:02 PM] [INFO] onDidChangeTextDocument()
+[9:59:02 PM] [INFO] onDidChangeTextDocument()
+[9:59:02 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:03 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:03 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:03 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:03 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:03 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:03 PM] [INFO] onDidChangeTextDocument()
+[9:59:03 PM] [INFO] onDidChangeTextDocument()
+[9:59:04 PM] [INFO] onDidChangeTextDocument()
+[9:59:04 PM] [INFO] onDidChangeTextDocument()
+[9:59:04 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:05 PM] [INFO] onDidChangeTextDocument()
+[9:59:05 PM] [INFO] onDidChangeTextDocument()
+[9:59:05 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:05 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:05 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:05 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:05 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:06 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:06 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:07 PM] [INFO] onDidChangeTextDocument()
+[9:59:07 PM] [INFO] onDidChangeTextDocument()
+[9:59:07 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:07 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:07 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:07 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:07 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:07 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:07 PM] [INFO] onDidChangeTextDocument()
+[9:59:07 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:08 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:08 PM] [INFO] onDidChangeTextDocument()
+[9:59:08 PM] [INFO] onDidChangeTextDocument()
+[9:59:09 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:09 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:09 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:09 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:09 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:09 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:10 PM] [INFO] onDidChangeTextDocument()
+[9:59:10 PM] [INFO] onDidChangeTextDocument()
+[9:59:10 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:11 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:11 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:11 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:11 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:11 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:11 PM] [INFO] onDidChangeTextDocument()
+[9:59:11 PM] [INFO] onDidChangeTextDocument()
+[9:59:12 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:12 PM] [INFO] onDidChangeWindowState()
+[9:59:13 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:13 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:13 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:13 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:13 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:28 PM] [INFO] onDidChangeWindowState()
+[9:59:28 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:28 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:28 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:28 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:28 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:31 PM] [INFO] onDidChangeActiveTextEditor()
+[9:59:31 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:31 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:31 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:31 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:31 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:38 PM] [INFO] onDidChangeActiveTextEditor()
+[9:59:38 PM] [INFO] onDidChangeTextEditorSelection()
+[9:59:38 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:38 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:38 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:38 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:38 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:38 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:38 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:38 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:38 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:38 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:43 PM] [INFO] onDidChangeWindowState()
+[9:59:47 PM] [INFO] onDidChangeWindowState()
+[9:59:47 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:47 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:47 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:47 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:47 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:47 PM] [INFO] onDidChangeWindowState()
+[9:59:50 PM] [INFO] onDidChangeWindowState()
+[9:59:50 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:50 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:50 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:50 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:50 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:51 PM] [INFO] onDidChangeWindowState()
+[9:59:57 PM] [INFO] onDidChangeWindowState()
+[9:59:57 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[9:59:57 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:57 PM] [INFO] [activity.ts] createButton(): enabled false
+[9:59:57 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[9:59:57 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[9:59:58 PM] [INFO] onDidChangeWindowState()
+[10:00:02 PM] [INFO] onDidChangeWindowState()
+[10:00:02 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[10:00:02 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:00:02 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:00:02 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[10:00:02 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[10:00:07 PM] [INFO] onDidChangeWindowState()
+[10:00:07 PM] [INFO] onDidChangeWindowState()
+[10:00:07 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[10:00:07 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:00:07 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:00:07 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[10:00:07 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[10:00:07 PM] [INFO] onDidChangeWindowState()
+[10:00:28 PM] [INFO] onDidChangeWindowState()
+[10:02:52 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[10:02:52 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:02:52 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:02:52 PM] [INFO] [activity.ts] getPresenceButtons button1: Idle {
+  "validationError": ""
+}
+[10:02:52 PM] [INFO] [activity.ts] getPresenceButtons button2: Idle {
+  "validationError": ""
+}
+[10:05:07 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[10:05:07 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:05:07 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:05:07 PM] [INFO] [activity.ts] getPresenceButtons button1: Idle {
+  "validationError": ""
+}
+[10:05:07 PM] [INFO] [activity.ts] getPresenceButtons button2: Idle {
+  "validationError": ""
+}
+[10:05:28 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[10:05:28 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:05:28 PM] [INFO] [activity.ts] createButton(): enabled false
+[10:05:28 PM] [INFO] [activity.ts] getPresenceButtons button1: Idle {
+  "validationError": ""
+}
+[10:05:28 PM] [INFO] [activity.ts] getPresenceButtons button2: Idle {
+  "validationError": ""
+}

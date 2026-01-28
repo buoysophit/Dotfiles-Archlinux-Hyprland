@@ -1,0 +1,132 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "f0438dc0dcbe112f48653d040fcccce49dc3b6c57cd38979be23dd3cc37f3990",
+    "telemetry.devDeviceId": "a02cf9db-a813-450e-8038-ad54dcb19972",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/phitter/.config/fastfetch"
+            },
+            {
+                "folderUri": "file:///home/phitter/Dotfile-Hyprland"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/phitter/.config/hypr": "__default__profile__",
+            "file:///home/phitter/.mozilla/firefox/bslli8a8.default-release/chrome": "__default__profile__",
+            "file:///home/phitter/.config/waybar": "__default__profile__",
+            "file:///home/phitter/.config/rofi": "__default__profile__",
+            "file:///home/phitter/.config/hypr/plugins": "__default__profile__",
+            "file:///home/phitter/.config/waybar_configs/waybar_floating": "__default__profile__",
+            "file:///home/phitter/.config/swaync": "__default__profile__",
+            "file:///home/phitter/.config/waybar_configs": "__default__profile__",
+            "file:///home/phitter/.config/waybar.bak1": "__default__profile__",
+            "file:///home/phitter/.config/fastfetch": "__default__profile__",
+            "file:///home/phitter/Dotfile-Hyprland": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/phitter/Dotfile-Hyprland",
+            "backupPath": "/home/phitter/.config/Code/Backups/596c8e65d93018ecfc7a814d6eff38e9",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 950,
+                "height": 1022
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#262a33",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d5ced9",
+            "background": "#262a33",
+            "editorBackground": "#262a33",
+            "titleBarBackground": "#23262e",
+            "activityBarBackground": "#20232b",
+            "activityBarBorder": "#1b1d23",
+            "sideBarBackground": "#23262e",
+            "sideBarBorder": "#1b1d23",
+            "statusBarBackground": "#23262e",
+            "statusBarNoFolderBackground": "#23262e"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 235,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 235,
+            "workspaces": {
+                "4c61755bbc564d780ac40d50c155f366": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "289cc75dbecd074379e7c93e74024980": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "fcc98142a39471b0f7cd1cccea46a26d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "91f619fced2976ac55fcb4f6364f93cc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7783dde034c49c147691675fa46f26e9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2b32efcccde3467329b0cbc484678ad0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9a3eccaac0d415c42e20f735cde5e1f3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "891282fa4e14491d598da585f0b8738f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c3949f40a1e7d2b65648407f740ec39a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "42e02e4be9b57b1d883dbbc55f09ed4e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "afb296f689eec745119bc7dc0944db23": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c33ca1b1e8bb8f9c42734af03dd5395d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

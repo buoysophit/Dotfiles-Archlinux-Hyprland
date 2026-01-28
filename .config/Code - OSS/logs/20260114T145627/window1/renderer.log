@@ -1,0 +1,5 @@
+2026-01-14 14:56:28.704 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-01-14 14:56:28.878 [info] Started local extension host with pid 19570.
+2026-01-14 14:56:28.925 [info] Started initializing default profile extensions in extensions installation folder. file:///home/phitter/.vscode-oss/extensions
+2026-01-14 14:56:29.166 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/phitter/.vscode-oss/extensions
+2026-01-14 14:56:32.052 [info] [perf] Render performance baseline is 142ms

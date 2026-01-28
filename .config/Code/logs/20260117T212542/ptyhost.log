@@ -1,0 +1,1 @@
+2026-01-17 21:26:54.674 [error] Failed to set sticky bit on /tmp/phitter-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/phitter-code-zsh'

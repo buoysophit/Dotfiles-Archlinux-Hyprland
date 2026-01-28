@@ -1,0 +1,6 @@
+[17/01/2026 21:25:46 - DEBUG] Registered instance 0fbc69b3-fcf3-454f-8d62-b335e152d1411768659943575-1768659946201-acefys
+[17/01/2026 21:25:46 - INFO] Discord Presence activated
+[17/01/2026 21:25:46 - INFO] Creating discord-rpc client
+[17/01/2026 21:25:46 - INFO] Successfully connected to Discord
+[17/01/2026 21:25:46 - DEBUG] Loading git extension
+[17/01/2026 21:25:51 - DEBUG] Cleaned up instance file for 0fbc69b3-fcf3-454f-8d62-b335e152d1411768659943575-1768659946201-acefys

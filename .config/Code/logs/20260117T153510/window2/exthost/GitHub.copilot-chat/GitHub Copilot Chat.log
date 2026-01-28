@@ -1,0 +1,65 @@
+2026-01-17 15:42:31.950 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-17 15:42:31.950 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-17 15:42:31.950 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-17 15:42:31.950 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-17 15:42:32.081 [error] Copilot extension not found
+2026-01-17 15:42:33.195 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-17 15:42:33.195 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-17 15:42:33.371 [info] Using the Electron fetcher.
+2026-01-17 15:42:33.372 [error] PermissiveAuthRequiredError: Permissive authentication is required
+    at CP.getAllSessions (/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:1219:27375)
+    at /home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:2359:6527
+    at G4.$provideChatSessionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:61140)
+2026-01-17 15:42:33.415 [info] Found 1 entries to copy: pty.node
+2026-01-17 15:42:33.415 [info] Found 1 entries to copy: rg
+2026-01-17 15:42:33.504 [info] Logged in as buoysophit
+2026-01-17 15:42:34.309 [info] Got Copilot token for buoysophit
+2026-01-17 15:42:34.309 [info] Copilot Chat: 0.36.1, VS Code: 1.108.0
+2026-01-17 15:42:34.322 [info] activationBlocker from 'languageModelAccess' took for 2278ms
+2026-01-17 15:42:34.373 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-17 15:42:34.373 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-17 15:42:34.378 [info] Registering default platform agent...
+2026-01-17 15:42:34.379 [info] [code-referencing] Public code references are enabled.
+2026-01-17 15:42:34.379 [info] activationBlocker from 'conversationFeature' took for 2342ms
+2026-01-17 15:42:34.381 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-17 15:42:34.384 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-17 15:42:34.500 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-17 15:42:35.078 [error] PermissiveAuthRequiredError: Permissive authentication is required
+    at CP.getAllSessions (/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:1219:27375)
+    at /home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:2359:6527
+    at G4.$provideChatSessionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:61140)
+2026-01-17 15:42:35.192 [info] Fetched model metadata in 3127ms 1e96cced-584c-426f-b160-c660261d56ba
+2026-01-17 15:42:35.442 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-17 15:42:35.443 [info] ccreq:409d0887.copilotmd | markdown
+2026-01-17 15:43:30.915 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-17 15:43:31.000 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-17 15:43:31.000 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-17 15:43:31.000 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-17 15:43:31.092 [error] Copilot extension not found
+2026-01-17 15:43:32.231 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-17 15:43:32.231 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-17 15:43:32.477 [info] Found 1 entries to copy: pty.node
+2026-01-17 15:43:32.478 [info] Found 1 entries to copy: rg
+2026-01-17 15:43:32.514 [info] Using the Electron fetcher.
+2026-01-17 15:43:32.566 [info] Logged in as buoysophit
+2026-01-17 15:43:33.373 [info] Got Copilot token for buoysophit
+2026-01-17 15:43:33.373 [info] Copilot Chat: 0.36.1, VS Code: 1.108.0
+2026-01-17 15:43:33.386 [info] activationBlocker from 'languageModelAccess' took for 2327ms
+2026-01-17 15:43:33.441 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-17 15:43:33.441 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-17 15:43:33.446 [info] Registering default platform agent...
+2026-01-17 15:43:33.447 [info] [code-referencing] Public code references are enabled.
+2026-01-17 15:43:33.447 [info] activationBlocker from 'conversationFeature' took for 2393ms
+2026-01-17 15:43:33.467 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-17 15:43:33.470 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-17 15:43:33.482 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-17 15:43:33.649 [info] Fetched model metadata in 2573ms 10bdc3a7-d1b8-4e6e-b429-0526e6719e4b
+2026-01-17 15:43:33.651 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-17 15:43:33.651 [info] ccreq:28dfa89f.copilotmd | markdown
+2026-01-17 15:44:03.055 [info] message 0 returned. finish reason: [stop]
+2026-01-17 15:44:03.055 [info] request done: requestId: [57d2e89c-4c00-4c25-ac69-27b49f5b2adc] model deployment ID: []
+2026-01-17 15:44:03.057 [info] ccreq:27c23ec5.copilotmd | success | gpt-4o-mini-2024-07-18 | 513ms | [intentDetection]
+2026-01-17 15:44:03.095 [info] Summarized doc to fit token budget (108338.5 / 127997): 578 + 55 + 4115
+2026-01-17 15:44:04.343 [info] message 0 returned. finish reason: [stop]
+2026-01-17 15:44:04.343 [info] request done: requestId: [b7563ed4-07e5-4e04-81e8-9e1412362e61] model deployment ID: []
+2026-01-17 15:44:04.345 [info] ccreq:1887490d.copilotmd | success | claude-haiku-4.5 | 1241ms | [inline/edit]

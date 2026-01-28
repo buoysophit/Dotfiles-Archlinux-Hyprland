@@ -1,0 +1,290 @@
+2026-01-17 21:25:46.696 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-17 21:25:46.696 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-17 21:25:46.696 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-17 21:25:46.696 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-17 21:25:46.818 [info] Logged in as buoysophit
+2026-01-17 21:25:46.824 [info] Using the Electron fetcher.
+2026-01-17 21:25:46.918 [error] Copilot extension not found
+2026-01-17 21:25:46.960 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-17 21:25:46.960 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-17 21:25:48.742 [info] Found 1 entries to copy: rg
+2026-01-17 21:25:48.742 [info] Found 1 entries to copy: pty.node
+2026-01-17 21:25:48.780 [info] Got Copilot token for buoysophit
+2026-01-17 21:25:48.780 [info] Copilot Chat: 0.36.1, VS Code: 1.108.0
+2026-01-17 21:25:48.793 [info] activationBlocker from 'languageModelAccess' took for 1914ms
+2026-01-17 21:25:49.044 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-17 21:25:49.044 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-17 21:25:49.057 [info] Registering default platform agent...
+2026-01-17 21:25:49.058 [info] [code-referencing] Public code references are enabled.
+2026-01-17 21:25:49.058 [info] activationBlocker from 'conversationFeature' took for 2184ms
+2026-01-17 21:25:49.108 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-17 21:25:49.766 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-17 21:25:49.768 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-17 21:25:54.792 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-17 21:25:54.812 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-17 21:25:54.813 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-17 21:25:54.813 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-17 21:25:55.000 [info] Logged in as buoysophit
+2026-01-17 21:25:55.008 [info] Using the Electron fetcher.
+2026-01-17 21:25:55.057 [error] Copilot extension not found
+2026-01-17 21:25:55.096 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-17 21:25:55.096 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-17 21:25:55.097 [info] Found 1 entries to copy: pty.node
+2026-01-17 21:25:55.097 [info] Found 1 entries to copy: rg
+2026-01-17 21:25:56.877 [info] Got Copilot token for buoysophit
+2026-01-17 21:25:56.877 [info] Copilot Chat: 0.36.1, VS Code: 1.108.0
+2026-01-17 21:25:56.894 [info] activationBlocker from 'languageModelAccess' took for 1869ms
+2026-01-17 21:25:57.143 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-17 21:25:57.143 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-17 21:25:57.157 [info] Registering default platform agent...
+2026-01-17 21:25:57.158 [info] [code-referencing] Public code references are enabled.
+2026-01-17 21:25:57.158 [info] activationBlocker from 'conversationFeature' took for 2137ms
+2026-01-17 21:25:57.227 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-17 21:25:57.429 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-17 21:25:57.432 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-17 21:26:02.293 [info] Fetched model metadata in 7252ms f1e0f82b-0573-4f63-a81b-2e449297b97a
+2026-01-17 21:26:05.066 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-17 21:26:05.067 [info] ccreq:2044304f.copilotmd | markdown
+2026-01-17 21:26:55.292 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:26:55.292 [info] request done: requestId: [c1cc3bda-491a-482e-9045-9b320c086542] model deployment ID: []
+2026-01-17 21:26:55.295 [info] ccreq:8734777d.copilotmd | success | gpt-4o-mini-2024-07-18 | 1179ms | [title]
+2026-01-17 21:26:55.946 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:27:04.575 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:27:04.575 [info] request done: requestId: [ebcd9be6-af5a-4ab0-8411-524043c5cfba] model deployment ID: []
+2026-01-17 21:27:04.579 [info] ccreq:3a7b803e.copilotmd | success | claude-haiku-4.5 | 8631ms | [panel/editAgent]
+2026-01-17 21:27:04.657 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:27:05.592 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:27:05.592 [info] request done: requestId: [2671ef83-bc0e-4d0e-9674-680a249daa20] model deployment ID: []
+2026-01-17 21:27:05.593 [info] ccreq:13d4b3af.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 4158ms | [copilotLanguageModelWrapper]
+2026-01-17 21:27:11.940 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:27:11.940 [info] request done: requestId: [ebcd9be6-af5a-4ab0-8411-524043c5cfba] model deployment ID: []
+2026-01-17 21:27:11.941 [info] ccreq:7573b12c.copilotmd | success | claude-haiku-4.5 | 7284ms | [panel/editAgent]
+2026-01-17 21:27:16.707 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:27:31.511 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:27:31.511 [info] request done: requestId: [ebcd9be6-af5a-4ab0-8411-524043c5cfba] model deployment ID: []
+2026-01-17 21:27:31.512 [info] ccreq:02cb30b6.copilotmd | success | claude-haiku-4.5 | 14805ms | [panel/editAgent]
+2026-01-17 21:28:17.559 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:28:24.982 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:28:24.982 [info] request done: requestId: [ebcd9be6-af5a-4ab0-8411-524043c5cfba] model deployment ID: []
+2026-01-17 21:28:24.983 [info] ccreq:e40b522f.copilotmd | success | claude-haiku-4.5 | 7424ms | [panel/editAgent]
+2026-01-17 21:28:27.982 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:28:41.848 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:28:41.848 [info] request done: requestId: [ebcd9be6-af5a-4ab0-8411-524043c5cfba] model deployment ID: []
+2026-01-17 21:28:41.850 [info] ccreq:a7c3d311.copilotmd | success | claude-haiku-4.5 | 13867ms | [panel/editAgent]
+2026-01-17 21:29:06.303 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:29:12.383 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:29:12.383 [info] request done: requestId: [ebcd9be6-af5a-4ab0-8411-524043c5cfba] model deployment ID: []
+2026-01-17 21:29:12.384 [info] ccreq:ecc6c9a6.copilotmd | success | claude-haiku-4.5 | 6081ms | [panel/editAgent]
+2026-01-17 21:29:40.895 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:30:03.146 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:30:03.146 [info] request done: requestId: [7b535d4f-e76b-4e87-9c45-d0a1f8a44cda] model deployment ID: []
+2026-01-17 21:30:03.149 [info] ccreq:09523dfc.copilotmd | success | claude-haiku-4.5 | 22253ms | [panel/editAgent]
+2026-01-17 21:30:07.157 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:30:07.157 [info] request done: requestId: [a8cbf3ac-435c-46d8-a120-0990fcd4a1d1] model deployment ID: []
+2026-01-17 21:30:07.160 [info] ccreq:4c0c44a2.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 7940ms | [copilotLanguageModelWrapper]
+2026-01-17 21:30:21.496 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:30:30.610 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:30:30.610 [info] request done: requestId: [7b535d4f-e76b-4e87-9c45-d0a1f8a44cda] model deployment ID: []
+2026-01-17 21:30:30.612 [info] ccreq:96717082.copilotmd | success | claude-haiku-4.5 | 9116ms | [panel/editAgent]
+2026-01-17 21:30:36.735 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:30:42.690 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:30:42.690 [info] request done: requestId: [7b535d4f-e76b-4e87-9c45-d0a1f8a44cda] model deployment ID: []
+2026-01-17 21:30:42.692 [info] ccreq:f411e6a1.copilotmd | success | claude-haiku-4.5 | 5957ms | [panel/editAgent]
+2026-01-17 21:31:18.853 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:32:00.921 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:32:00.921 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:32:00.924 [info] ccreq:613ad7bf.copilotmd | success | claude-haiku-4.5 | 42070ms | [panel/editAgent]
+2026-01-17 21:32:00.936 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:32:00.936 [info] request done: requestId: [55a3393b-6b67-45f8-b4ef-659f647f0043] model deployment ID: []
+2026-01-17 21:32:00.937 [info] ccreq:59ada209.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2476ms | [copilotLanguageModelWrapper]
+2026-01-17 21:32:04.394 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:32:10.336 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:32:10.336 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:32:10.337 [info] ccreq:06b5246b.copilotmd | success | claude-haiku-4.5 | 5944ms | [panel/editAgent]
+2026-01-17 21:32:10.376 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:32:15.256 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:32:15.256 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:32:15.258 [info] ccreq:2bb70d10.copilotmd | success | claude-haiku-4.5 | 4881ms | [panel/editAgent]
+2026-01-17 21:32:31.577 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:32:37.196 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:32:37.196 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:32:37.426 [info] ccreq:1a4df2d0.copilotmd | success | claude-haiku-4.5 | 5849ms | [panel/editAgent]
+2026-01-17 21:32:39.470 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:32:46.495 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:32:46.495 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:32:46.497 [info] ccreq:835c40c4.copilotmd | success | claude-haiku-4.5 | 7026ms | [panel/editAgent]
+2026-01-17 21:32:49.972 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:32:57.010 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:32:57.010 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:32:57.012 [info] ccreq:d87bd698.copilotmd | success | claude-haiku-4.5 | 7040ms | [panel/editAgent]
+2026-01-17 21:33:01.874 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:33:07.624 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:33:07.624 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:33:07.626 [info] ccreq:01a0df8b.copilotmd | success | claude-haiku-4.5 | 5753ms | [panel/editAgent]
+2026-01-17 21:33:10.534 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:33:19.057 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:33:19.057 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:33:19.059 [info] ccreq:44f7d4fa.copilotmd | success | claude-haiku-4.5 | 8524ms | [panel/editAgent]
+2026-01-17 21:33:31.286 [warning] Tool mcp_gitkraken_gitkraken_workspace_list failed validation: schema must have a properties object
+2026-01-17 21:33:36.876 [info] message 0 returned. finish reason: [tool_calls]
+2026-01-17 21:33:36.876 [info] request done: requestId: [3dafb0c6-488c-43d9-a7b0-e2f4a471a4c3] model deployment ID: []
+2026-01-17 21:33:36.878 [info] ccreq:2c69e4e4.copilotmd | success | claude-haiku-4.5 | 5592ms | [panel/editAgent]
+2026-01-17 21:40:10.264 [warning] [relatedFiles] unknown language jsonc
+2026-01-17 21:40:11.399 [info] [fetchCompletions] Request b5139e85-9697-4014-878a-a93fc8296b09 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 330.2151559999911ms
+2026-01-17 21:40:11.403 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:40:13.099 [info] [fetchCompletions] Request 4793ac90-2826-468e-9b55-68a95fa4e90f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 318.815581999952ms
+2026-01-17 21:40:13.102 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:40:13.107 [info] ccreq:abc8a656.copilotmd | markdown
+2026-01-17 21:40:13.449 [info] [fetchCompletions] Request 07607328-58d5-4ee3-a929-516aa9b1d8d4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 326.6721790001029ms
+2026-01-17 21:40:13.581 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2026-01-17 21:40:14.731 [info] ccreq:0408dd1f.copilotmd | markdown
+2026-01-17 21:40:15.064 [info] [fetchCompletions] Request 2d012812-1075-4825-a2c8-16f5785ac172 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 318.30303899990395ms
+2026-01-17 21:40:15.067 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:40:17.891 [info] ccreq:e648a897.copilotmd | markdown
+2026-01-17 21:41:46.100 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:41:46.100 [info] request done: requestId: [b70b2747-17c9-4002-b2a4-2b42721c262c] model deployment ID: []
+2026-01-17 21:41:46.343 [info] ccreq:f6a35847.copilotmd | success | nes-callisto | 640ms | [XtabProvider]
+2026-01-17 21:41:46.345 [info] ccreq:25f73b4f.copilotmd | markdown
+2026-01-17 21:41:46.679 [info] ccreq:debefa54.copilotmd | markdown
+2026-01-17 21:41:47.818 [info] ccreq:ae541224.copilotmd | markdown
+2026-01-17 21:41:47.821 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:41:47.821 [info] request done: requestId: [8e4871e4-bd5d-4eaa-9611-55b3ddfcea87] model deployment ID: []
+2026-01-17 21:41:47.824 [info] ccreq:bdbdb8bb.copilotmd | success | nes-callisto | 508ms | [XtabProvider]
+2026-01-17 21:41:48.756 [info] ccreq:589e74e3.copilotmd | markdown
+2026-01-17 21:41:50.276 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:41:50.276 [info] request done: requestId: [b98617ad-4c55-4956-a35d-875759dac0ad] model deployment ID: []
+2026-01-17 21:41:50.279 [info] ccreq:1e3d3a34.copilotmd | success | nes-callisto | 380ms | [XtabProvider]
+2026-01-17 21:41:50.957 [info] ccreq:8e910568.copilotmd | markdown
+2026-01-17 21:41:51.549 [info] ccreq:fc7219f0.copilotmd | markdown
+2026-01-17 21:41:51.550 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:41:51.550 [info] request done: requestId: [0f7bf552-36af-4471-a531-2d097ed9baa5] model deployment ID: []
+2026-01-17 21:41:51.552 [info] ccreq:33dc5d08.copilotmd | success | nes-callisto | 425ms | [XtabProvider]
+2026-01-17 21:41:52.846 [info] ccreq:76098b0c.copilotmd | markdown
+2026-01-17 21:41:54.096 [info] ccreq:ead14a62.copilotmd | markdown
+2026-01-17 21:42:01.069 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:42:01.069 [info] request done: requestId: [f86e68a6-55ae-43f9-9917-582d0a84ed1f] model deployment ID: []
+2026-01-17 21:42:01.072 [info] ccreq:69a56875.copilotmd | success | nes-callisto | 386ms | [XtabProvider]
+2026-01-17 21:42:01.075 [info] ccreq:1ac9bbee.copilotmd | markdown
+2026-01-17 21:42:01.661 [info] ccreq:209508e8.copilotmd | markdown
+2026-01-17 21:42:01.683 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:42:01.683 [info] request done: requestId: [33f999df-b5e6-498b-acf7-1445f991d9a3] model deployment ID: []
+2026-01-17 21:42:01.684 [info] ccreq:0ec05459.copilotmd | success | nes-callisto | 450ms | [XtabProvider]
+2026-01-17 21:42:02.823 [info] ccreq:3379496f.copilotmd | markdown
+2026-01-17 21:42:04.793 [info] ccreq:48922679.copilotmd | markdown
+2026-01-17 21:42:04.796 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:42:04.796 [info] request done: requestId: [36898a58-f31a-4754-ae5c-71a76316a211] model deployment ID: []
+2026-01-17 21:42:04.798 [info] ccreq:59c32b32.copilotmd | success | nes-callisto | 552ms | [XtabProvider]
+2026-01-17 21:42:05.050 [info] ccreq:cd4e0471.copilotmd | markdown
+2026-01-17 21:42:06.225 [info] ccreq:cc405f4a.copilotmd | markdown
+2026-01-17 21:42:07.053 [info] ccreq:fb7dd57c.copilotmd | markdown
+2026-01-17 21:42:07.210 [info] ccreq:87b4dc4f.copilotmd | markdown
+2026-01-17 21:42:07.847 [info] ccreq:0e8a926d.copilotmd | markdown
+2026-01-17 21:42:07.985 [info] ccreq:d6d0a789.copilotmd | markdown
+2026-01-17 21:42:08.075 [info] ccreq:9bfa18d1.copilotmd | markdown
+2026-01-17 21:42:08.216 [info] ccreq:e99cb6b6.copilotmd | markdown
+2026-01-17 21:42:09.104 [info] ccreq:93a7c379.copilotmd | markdown
+2026-01-17 21:42:11.679 [info] ccreq:5cfcfd6c.copilotmd | markdown
+2026-01-17 21:42:47.876 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:42:47.876 [info] request done: requestId: [6ec74009-3811-4d30-b413-ecb4a078b9eb] model deployment ID: []
+2026-01-17 21:42:48.128 [info] ccreq:70f5c960.copilotmd | success | nes-callisto | 659ms | [XtabProvider]
+2026-01-17 21:42:48.278 [info] ccreq:3c33ecce.copilotmd | markdown
+2026-01-17 21:42:49.526 [info] ccreq:57d4070c.copilotmd | markdown
+2026-01-17 21:42:55.750 [info] ccreq:e83cc40e.copilotmd | markdown
+2026-01-17 21:43:03.898 [info] [fetchCompletions] Request 395dbd5a-1a15-4d73-8c89-b123a4afe443 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 316.61569500004407ms
+2026-01-17 21:43:04.002 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:43:04.007 [info] ccreq:bf7ff340.copilotmd | markdown
+2026-01-17 21:43:04.159 [info] ccreq:804d6b73.copilotmd | markdown
+2026-01-17 21:43:04.161 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:43:04.161 [info] request done: requestId: [f988ff4b-da7f-4a90-8794-52c39e162910] model deployment ID: []
+2026-01-17 21:43:04.190 [info] ccreq:4f5d69c5.copilotmd | markdown
+2026-01-17 21:43:04.449 [info] ccreq:5f915497.copilotmd | success | nes-callisto | 704ms | [XtabProvider]
+2026-01-17 21:43:05.171 [info] [fetchCompletions] Request bc12bdb8-095d-4325-a9c2-8bb07874095a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.57971499999985ms
+2026-01-17 21:43:05.290 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:43:05.295 [info] ccreq:114071bf.copilotmd | markdown
+2026-01-17 21:43:05.458 [info] ccreq:21809013.copilotmd | markdown
+2026-01-17 21:43:05.460 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:43:05.460 [info] request done: requestId: [45136595-d085-4de5-92e6-71cb255a691a] model deployment ID: []
+2026-01-17 21:43:05.461 [info] ccreq:efaf69d4.copilotmd | success | nes-callisto | 445ms | [XtabProvider]
+2026-01-17 21:43:05.629 [info] [fetchCompletions] Request de289022-0b01-4b5b-9fb5-c81310bed301 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 322.14157700003125ms
+2026-01-17 21:43:05.693 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:43:06.162 [info] ccreq:f3d089e4.copilotmd | markdown
+2026-01-17 21:43:06.349 [info] ccreq:e88727cf.copilotmd | markdown
+2026-01-17 21:43:06.535 [info] ccreq:fdcd0665.copilotmd | markdown
+2026-01-17 21:43:06.798 [info] ccreq:1d6f61ab.copilotmd | markdown
+2026-01-17 21:43:07.136 [info] [fetchCompletions] Request 61fd87c4-a3aa-4c5a-afaa-f3b6ee8b9e7d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 336.4624870000407ms
+2026-01-17 21:43:07.574 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:43:07.579 [info] ccreq:9a95113b.copilotmd | markdown
+2026-01-17 21:43:07.950 [info] [fetchCompletions] Request 61e6ec1f-cc51-4691-8b29-a84899b8c70b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 360.3702800000319ms
+2026-01-17 21:43:08.020 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:43:09.667 [info] ccreq:15e1e2bd.copilotmd | markdown
+2026-01-17 21:43:09.669 [info] ccreq:b382c6c7.copilotmd | markdown
+2026-01-17 21:43:09.705 [info] ccreq:ae62dfbc.copilotmd | markdown
+2026-01-17 21:43:09.707 [info] ccreq:233fb18a.copilotmd | markdown
+2026-01-17 21:43:09.819 [info] ccreq:102f36a2.copilotmd | markdown
+2026-01-17 21:43:09.821 [info] ccreq:2068470c.copilotmd | markdown
+2026-01-17 21:43:10.713 [info] [code-referencing] Calling twirp/github.snippy.v1.SnippyAPI/Match
+2026-01-17 21:43:10.735 [info] ccreq:51ce364e.copilotmd | markdown
+2026-01-17 21:43:10.737 [info] ccreq:b127c096.copilotmd | markdown
+2026-01-17 21:43:11.715 [info] ccreq:9628b14a.copilotmd | markdown
+2026-01-17 21:43:11.717 [info] ccreq:137e35a8.copilotmd | markdown
+2026-01-17 21:43:12.859 [info] [fetchCompletions] Request 94c7bede-2b3e-4415-ae14-d4ce51bb8865 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 305.00010199996177ms
+2026-01-17 21:43:12.974 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:43:12.979 [info] ccreq:244b6b44.copilotmd | markdown
+2026-01-17 21:43:13.156 [info] ccreq:90d4761d.copilotmd | markdown
+2026-01-17 21:43:13.158 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:43:13.158 [info] request done: requestId: [727ad787-bf08-4b17-9d4f-7afbc57e58e9] model deployment ID: []
+2026-01-17 21:43:13.159 [info] ccreq:df15c301.copilotmd | success | nes-callisto | 411ms | [XtabProvider]
+2026-01-17 21:43:13.288 [info] [fetchCompletions] Request 8dee57eb-2925-43ce-af4e-b55ce0570324 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 298.0091379999649ms
+2026-01-17 21:43:13.381 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2026-01-17 21:43:13.542 [info] [code-referencing] No match found
+2026-01-17 21:43:14.678 [info] [code-referencing] Calling twirp/github.snippy.v1.SnippyAPI/Match
+2026-01-17 21:43:14.701 [info] ccreq:1a701772.copilotmd | markdown
+2026-01-17 21:43:16.876 [info] ccreq:b9e70019.copilotmd | markdown
+2026-01-17 21:43:16.878 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:43:16.879 [info] request done: requestId: [d695cd60-86f9-463a-bd6b-ad65e8546deb] model deployment ID: []
+2026-01-17 21:43:16.880 [info] ccreq:fb876fc0.copilotmd | success | nes-callisto | 500ms | [XtabProvider]
+2026-01-17 21:43:16.882 [info] [code-referencing] No match found
+2026-01-17 21:43:41.291 [info] ccreq:fd09c6a4.copilotmd | markdown
+2026-01-17 21:43:41.430 [info] ccreq:06d00425.copilotmd | markdown
+2026-01-17 21:43:41.794 [info] ccreq:7f5041a4.copilotmd | markdown
+2026-01-17 21:43:41.804 [info] ccreq:4dedc5e0.copilotmd | markdown
+2026-01-17 21:43:41.990 [info] ccreq:1d9ecaa3.copilotmd | markdown
+2026-01-17 21:43:42.187 [info] ccreq:ca7f9fef.copilotmd | markdown
+2026-01-17 21:43:43.404 [info] [code-referencing] Calling twirp/github.snippy.v1.SnippyAPI/Match
+2026-01-17 21:43:43.417 [info] ccreq:963e6629.copilotmd | markdown
+2026-01-17 21:43:44.018 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:43:44.018 [info] request done: requestId: [8d13402d-c157-4d51-b500-113de54db1fc] model deployment ID: []
+2026-01-17 21:43:44.280 [info] ccreq:06460aaa.copilotmd | success | nes-callisto | 693ms | [XtabProvider]
+2026-01-17 21:43:44.648 [info] ccreq:1bbda172.copilotmd | markdown
+2026-01-17 21:43:45.574 [info] ccreq:7a92823b.copilotmd | markdown
+2026-01-17 21:43:46.824 [info] ccreq:ccda5efd.copilotmd | markdown
+2026-01-17 21:43:47.624 [info] [code-referencing] No match found
+2026-01-17 21:43:48.357 [info] ccreq:64a892e1.copilotmd | markdown
+2026-01-17 21:43:48.991 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:43:48.991 [info] request done: requestId: [a324a16a-2681-4054-a34d-9910b3fcdbea] model deployment ID: []
+2026-01-17 21:43:48.998 [info] ccreq:527782c6.copilotmd | success | nes-callisto | 424ms | [XtabProvider]
+2026-01-17 21:43:49.639 [info] ccreq:1e11b428.copilotmd | markdown
+2026-01-17 21:43:57.516 [info] ccreq:9104654e.copilotmd | markdown
+2026-01-17 21:43:57.877 [info] ccreq:426b26b8.copilotmd | markdown
+2026-01-17 21:44:09.392 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:44:09.392 [info] request done: requestId: [d5a12880-3be4-4387-b393-baee7a823502] model deployment ID: []
+2026-01-17 21:44:09.644 [info] ccreq:d7035d69.copilotmd | success | nes-callisto | 641ms | [XtabProvider]
+2026-01-17 21:44:10.076 [info] ccreq:398be057.copilotmd | markdown
+2026-01-17 21:44:39.487 [warning] [relatedFiles] unknown language shellscript
+2026-01-17 21:44:39.813 [info] [fetchCompletions] Request d300ed32-56a5-46ef-95f5-4a22d229209d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 320.397415000014ms
+2026-01-17 21:44:39.875 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-17 21:44:39.878 [info] ccreq:f4176a7c.copilotmd | markdown
+2026-01-17 21:44:40.057 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:44:40.057 [info] request done: requestId: [a7b7a50a-924a-4564-b36c-f5c6d30c0b13] model deployment ID: []
+2026-01-17 21:44:40.309 [info] ccreq:183044ea.copilotmd | success | nes-callisto | 642ms | [XtabProvider]
+2026-01-17 21:44:40.730 [info] ccreq:0afdfefe.copilotmd | markdown
+2026-01-17 21:44:59.769 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:44:59.769 [info] request done: requestId: [22bcb239-247d-4af1-b66a-309fbdfb8905] model deployment ID: []
+2026-01-17 21:45:00.018 [info] ccreq:ceb49dd8.copilotmd | success | nes-callisto | 686ms | [XtabProvider]
+2026-01-17 21:45:00.022 [info] ccreq:9edfb354.copilotmd | markdown
+2026-01-17 21:45:00.022 [info] ccreq:cb9b00a5.copilotmd | markdown
+2026-01-17 21:45:00.022 [info] ccreq:0652dc49.copilotmd | markdown
+2026-01-17 21:45:00.578 [info] message 0 returned. finish reason: [stop]
+2026-01-17 21:45:00.578 [info] request done: requestId: [7f90d555-3936-47c2-8357-8420d26e57a0] model deployment ID: []
+2026-01-17 21:45:00.580 [info] ccreq:00922f7b.copilotmd | success | nes-callisto | 389ms | [XtabProvider]
+2026-01-17 21:45:00.752 [info] ccreq:719cccb8.copilotmd | markdown

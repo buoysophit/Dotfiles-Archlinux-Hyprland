@@ -1,0 +1,11 @@
+2026-01-17 21:26:54.397 [info] Starting server Copilot Container Tools
+2026-01-17 21:26:54.397 [info] Connection state: Starting
+2026-01-17 21:26:54.397 [info] Starting server from LocalProcess extension host
+2026-01-17 21:26:54.441 [info] Connection state: Running
+2026-01-17 21:26:54.539 [info] Discovered 12 tools
+2026-01-17 21:31:54.932 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:36:56.568 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:41:58.179 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:46:59.813 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:49:38.994 [warning] Extension host shut down, server will stop.
+2026-01-17 21:49:38.994 [info] Connection state: Stopped

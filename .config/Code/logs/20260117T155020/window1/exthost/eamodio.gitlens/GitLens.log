@@ -1,0 +1,9 @@
+2026-01-17 15:50:27.657 [info] GitLens v17.9.0 activating in Visual Studio Code (1.108.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|f0438dc0dcbe112f48653d040fcccce49dc3b6c57cd38979be23dd3cc37f3990|6779d24d-9156-447e-8204-6115e6da98151768639822197)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2026-01-17 08:50:27.287] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 08:50:27.287] [GIT          ] [/home/phitter/.config/waybar] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [75ms]
+[2026-01-17 08:50:27.395] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 08:50:27.395] [GIT          ] [/home/phitter/.config/waybar] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [25ms]
+

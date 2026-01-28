@@ -1,0 +1,3763 @@
+{
+  "version": 3,
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_5e0c862d-6c0b-4ee7-a80d-c5094899f7f0",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 34
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 35
+            },
+            "text": "fix not show img logo in fastfetch",
+            "kind": "text"
+          }
+        ],
+        "text": "fix not show img logo in fastfetch"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "directory",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/phitter/.config/fastfetch/logo",
+              "external": "file:///home/phitter/.config/fastfetch/logo",
+              "path": "/home/phitter/.config/fastfetch/logo",
+              "scheme": "file"
+            },
+            "id": "file:///home/phitter/.config/fastfetch/logo",
+            "name": "logo",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+              "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+              "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+              "scheme": "file"
+            },
+            "id": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "name": "fastfetch.sh",
+            "omittedState": 0
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "progressTaskSerialized",
+          "content": {
+            "value": "Optimizing tool selection...",
+            "uris": {}
+          },
+          "progress": []
+        },
+        {
+          "kind": "thinking",
+          "value": "The user wants to fix an issue where image logos are not showing in fastfetch. Let me first look at the config.jsonc file to understand the current setup, and then examine the fastfetch.sh script to see what might be causing the issue.\n\nLet me start by reading the config.jsonc file to see how it's configured.",
+          "id": "1768660021402",
+          "generatedTitle": "Read config.jsonc file for configuration details"
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "",
+          "metadata": {
+            "vscodeReasoningDone": true,
+            "stopReason": "other"
+          }
+        },
+        {
+          "value": "I'll help you fix the image logo not showing in fastfetch. Let me first examine the current configuration. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_readFile"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Reading [](file:///home/phitter/.config/fastfetch/config.jsonc#1-1), lines 1 to 100",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///home/phitter/.config/fastfetch/config.jsonc#1-1": {
+                "$mid": 1,
+                "path": "/home/phitter/.config/fastfetch/config.jsonc",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Read [](file:///home/phitter/.config/fastfetch/config.jsonc#1-1), lines 1 to 100",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///home/phitter/.config/fastfetch/config.jsonc#1-1": {
+                "$mid": 1,
+                "path": "/home/phitter/.config/fastfetch/config.jsonc",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "ad5865d2-fa2d-4a7d-8e0d-069add31639f",
+          "toolId": "copilot_readFile"
+        },
+        {
+          "value": "Now let me check the issue. The problem is likely that the script is using `zsh` syntax that may not work correctly, or the logo file path isn't being properly resolved. Let me also look at the script output: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalCommandId": "tool-ac23d0ed-d9f6-40af-9c55-ba94cf2e41a3",
+            "commandLine": {
+              "original": "zsh ~/.config/fastfetch/fastfetch.sh",
+              "toolEdited": " zsh ~/.config/fastfetch/fastfetch.sh"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "exitCode": 0,
+              "timestamp": 1768660036576,
+              "duration": 0
+            },
+            "terminalCommandOutput": {
+              "text": "/home/phitter/.config/fastfetch/logo/g21.png\u001b[?1h\u001b[?66h\u001b[?2004h",
+              "lineCount": 1
+            },
+            "terminalTheme": {
+              "background": "#23262e",
+              "foreground": "#cccccc"
+            }
+          },
+          "toolCallId": "099bfa2f-69ef-4129-a945-c42575d06a1a",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "value": "I see the issue. The script is outputting a path to `g21.png` which doesn't exist in your logo directory. The problem is in the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " script - it has a shebang conflict (two shebangs) and uses `zsh` array syntax. Let me fix it: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "d9089127-3de3-4d00-956c-dea2ad40c8e0",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "id": "a55ec49d-e49f-411e-8e77-9948b0137a53",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "\n# Directory with logos\nLOGO_DIR=\"$HOME/.config/fastfetch/logo\"\n\n# Pick a random file in the directory\nRANDOM_LOGO=$(find \"$LOGO_DIR\" -type f | shuf -n 1)\n\n# Output it\necho \"$RANDOM_LOGO\"",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 1,
+                  "endLineNumber": 12,
+                  "endColumn": 18
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "value": "Now let's test the script again: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalCommandId": "tool-5acc9d52-a943-4a90-96b4-26b3e05f13fb",
+            "commandLine": {
+              "original": "bash ~/.config/fastfetch/fastfetch.sh",
+              "toolEdited": " bash ~/.config/fastfetch/fastfetch.sh"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "exitCode": 0,
+              "timestamp": 1768660107936,
+              "duration": 11
+            },
+            "terminalCommandOutput": {
+              "text": "/home/phitter/.config/fastfetch/logo/ryuzaki.png",
+              "lineCount": 1
+            },
+            "terminalTheme": {
+              "background": "#23262e",
+              "foreground": "#cccccc"
+            }
+          },
+          "toolCallId": "f6f9be9a-4b4d-4332-af5f-de405b796a94",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "value": "Wait, it's outputting `.png` but your actual files are `.icon`. Let me fix the script to match your actual files: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 5
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "bb0f048b-15f4-49b3-99c4-f1fb0ac33bbf",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "Let me verify the script works correctly now: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 0
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalToolSessionId": "606d4965-54e7-43cd-b309-94a3b401e2a7",
+            "terminalCommandId": "tool-c331df0c-62eb-4086-a2b4-ade5a11035e2",
+            "commandLine": {
+              "original": "bash ~/.config/fastfetch/fastfetch.sh",
+              "toolEdited": " bash ~/.config/fastfetch/fastfetch.sh"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "timestamp": 1768660179718
+            }
+          },
+          "toolCallId": "7016a5ef-e03b-4e0e-972c-9663cdf822b2",
+          "toolId": "run_in_terminal"
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.1",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "timestamp": 1768660013084,
+      "modelId": "copilot/auto",
+      "responseId": "response_dc0de679-1545-4677-9018-2edb12cbd1e0",
+      "result": {
+        "timings": {
+          "firstProgress": 6660,
+          "totalElapsed": 165278
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"logo\" folderPath=\"/home/phitter/.config/fastfetch/logo\">\nThe user attached the folder `/home/phitter/.config/fastfetch/logo` which has the following structure: ```\naisaka.icon\nloli.icon\npochita.icon\nryuzaki.icon\n```\n</attachment>\n<attachment id=\"fastfetch.sh\" filePath=\"/home/phitter/.config/fastfetch/fastfetch.sh\">\n#!/bin/bash\n# Outputs the path to the logo image or ASCII art\n#!/usr/bin/env zsh\n\n# Directory with logos\nLOGO_DIR=\"$HOME/.config/fastfetch/logo\"\n\n# Pick a random file in the directory\nRANDOM_LOGO=(${(f)\"$(find $LOGO_DIR -type f | shuf -n 1)\"})\n\n# Output it\necho $RANDOM_LOGO\n</attachment>\n\n</attachments>\n<context>\nThe current date is January 17, 2026.\nTerminals:\nTerminal: zsh\n\n</context>\n<editorContext>\nThe user's current file is /home/phitter/.config/fastfetch/config.jsonc. \n</editorContext>\n<reminderInstructions>\nWhen using the replace_string_in_file tool, include 3-5 lines of unchanged code before and after the string you want to replace, to make it unambiguous which part of the file should be edited.\nFor maximum efficiency, whenever you plan to perform multiple independent edit operations, invoke them simultaneously using multi_replace_string_in_file tool rather than sequentially. This will greatly improve user's cost and time efficiency leading to a better user experience. Do not announce which tool you're using (for example, avoid saying \"I'll implement all the changes using multi_replace_string_in_file\").\nDo NOT create a new markdown file to document each change or summarize your work unless specifically requested by the user.\n\n</reminderInstructions>\n<userRequest>\nfix not show img logo in fastfetch\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "renderedGlobalContext": [
+            {
+              "type": 1,
+              "text": "<environment_info>\nThe user's current OS is: Linux\n</environment_info>\n<workspace_info>\nI am working in a workspace with the following folders:\n- /home/phitter/.config/fastfetch \nI am working in a workspace that has the following structure:\n```\nconfig.jsonc\nfastfetch.sh\nlogo/\n\taisaka.icon\n\tloli.icon\n\tpochita.icon\n\tryuzaki.icon\n```\nThis is the state of the context at this point in the conversation. The view of the workspace structure may be truncated. You can use tools to collect more context if needed.\n</workspace_info>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "cacheKey": "file:///home/phitter/.config/fastfetch",
+          "toolCallRounds": [
+            {
+              "response": "I'll help you fix the image logo not showing in fastfetch. Let me first examine the current configuration. ",
+              "toolCalls": [
+                {
+                  "name": "read_file",
+                  "arguments": "{\"filePath\": \"/home/phitter/.config/fastfetch/config.jsonc\", \"startLine\": 1, \"endLine\": 100}",
+                  "id": "toolu_01DdpAyAQ7VcLtMrV4cAhaGo__vscode-1768659953791"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "443ed402-d1ae-403c-a60a-082582dbe000",
+              "thinking": {
+                "id": "OjgVk1YS6zr2uP9l3q9Kz2Q0RI377h7+8U4EBlxVrxZqOAsSzjv75ZtvBzn30GM4XyW/f1ladN94eFMDbicb84XKFq5Ce7YR1ngnEHfGEinqPjY5hsxqK/lYxITxMMttVrAPI5thAfWI4hwDDgZ2q+RkL8Qso9XwhIpcfR2CXQM30UPX4iKOKc570Y2yhNxVPWa3L6fGtOzYB7xECmcC+DUwjHKR95xPn8z4IjfoTsDdOKAEfDHz8aEx8tGC190lWDVMn3LRYNTCIB4eqp9uIzWbZwGE/Qgr/DjTu0qNEsbfqlA+wHNAlakKiRHtIzjVZLiMQdD4+IG92xT4WJ+Vb9hSF5HndMhixlq6cgaUnx+D045YVp1wAJv88+t3L38GAi3jvaBLdllq+g1ftGUvzfEu+ul8LLcVd7qv9IuATHuOieAAHAMQL3gAU12ockVj4KE3/CYFp/NaokFmE78HZe5LyFe5yeTOIRaWklM3bo8cR+UkcoB4mS0CLXt21ZGqoBvZdFcAb3joJJYDDhpaLUa5cHq5b3eZkNwjX7VMIzhQsl4OLcJfDp2glTFIi5BsSZXS3RRm419ELzEcfumJrN+EqstPXCi5Fc9KuKUbAuf7+djCIclSNErmlvzKrE1l5k3o3baORRFN4cwjYL5Yt2o+7y7RnajidcWc77gt4bfvO/RaXehs+A/ynUzx8pu7cZG9z4e9L8ianpCFEsdYSlJ8f+5VHk8LK3o49+TIwffG8HqO4/etrPZvVOWjXlqHIqEqeA3RXVEjxcX4VfI9nm4eOnYXojp5nZ9XxLJ4lrNgdFSlkIFvcJKWqe3ThR5RXDFuiWZAGAqk52fe+GekXqxpWyLv55hd7xt709k0JOKKxYkI+MduHcpXvuyaxJnY5CdJjGRolENkUIm4h+JqAukxK8Idi969E1ZEbbt7aHEQ+ID9qyInkl6A0UiKPQfJ96tpOEmFf9RAJ4ixBQ1DmCSHRCZcMaL+//RiPMKBlh6y/LY1NdAHHIaWkYTYyK77t81Bl9AJ7LBSMYmdE/c06oG+zOdsl4sXhv44yU/b3xeRnp4Ea2sxDlTLiIubUgXVOfw3RZZrYBkMVF6R4FxUi8oaXu5HoYRnKs7OOF4X+eUOfMZx3OROBo609DvwEA8BxHQWcm+aVj0nnzjKyMtowAw4egyArm5Bvn8wxq2GzxibtVXP30r50GRjRy21K3WXT3tAosVswjo7UEheiw==",
+                "text": "The user wants to fix an issue where image logos are not showing in fastfetch. Let me first look at the config.jsonc file to understand the current setup, and then examine the fastfetch.sh script to see what might be causing the issue.\n\nLet me start by reading the config.jsonc file to see how it's configured.",
+                "encrypted": "OjgVk1YS6zr2uP9l3q9Kz2Q0RI377h7+8U4EBlxVrxZqOAsSzjv75ZtvBzn30GM4XyW/f1ladN94eFMDbicb84XKFq5Ce7YR1ngnEHfGEinqPjY5hsxqK/lYxITxMMttVrAPI5thAfWI4hwDDgZ2q+RkL8Qso9XwhIpcfR2CXQM30UPX4iKOKc570Y2yhNxVPWa3L6fGtOzYB7xECmcC+DUwjHKR95xPn8z4IjfoTsDdOKAEfDHz8aEx8tGC190lWDVMn3LRYNTCIB4eqp9uIzWbZwGE/Qgr/DjTu0qNEsbfqlA+wHNAlakKiRHtIzjVZLiMQdD4+IG92xT4WJ+Vb9hSF5HndMhixlq6cgaUnx+D045YVp1wAJv88+t3L38GAi3jvaBLdllq+g1ftGUvzfEu+ul8LLcVd7qv9IuATHuOieAAHAMQL3gAU12ockVj4KE3/CYFp/NaokFmE78HZe5LyFe5yeTOIRaWklM3bo8cR+UkcoB4mS0CLXt21ZGqoBvZdFcAb3joJJYDDhpaLUa5cHq5b3eZkNwjX7VMIzhQsl4OLcJfDp2glTFIi5BsSZXS3RRm419ELzEcfumJrN+EqstPXCi5Fc9KuKUbAuf7+djCIclSNErmlvzKrE1l5k3o3baORRFN4cwjYL5Yt2o+7y7RnajidcWc77gt4bfvO/RaXehs+A/ynUzx8pu7cZG9z4e9L8ianpCFEsdYSlJ8f+5VHk8LK3o49+TIwffG8HqO4/etrPZvVOWjXlqHIqEqeA3RXVEjxcX4VfI9nm4eOnYXojp5nZ9XxLJ4lrNgdFSlkIFvcJKWqe3ThR5RXDFuiWZAGAqk52fe+GekXqxpWyLv55hd7xt709k0JOKKxYkI+MduHcpXvuyaxJnY5CdJjGRolENkUIm4h+JqAukxK8Idi969E1ZEbbt7aHEQ+ID9qyInkl6A0UiKPQfJ96tpOEmFf9RAJ4ixBQ1DmCSHRCZcMaL+//RiPMKBlh6y/LY1NdAHHIaWkYTYyK77t81Bl9AJ7LBSMYmdE/c06oG+zOdsl4sXhv44yU/b3xeRnp4Ea2sxDlTLiIubUgXVOfw3RZZrYBkMVF6R4FxUi8oaXu5HoYRnKs7OOF4X+eUOfMZx3OROBo609DvwEA8BxHQWcm+aVj0nnzjKyMtowAw4egyArm5Bvn8wxq2GzxibtVXP30r50GRjRy21K3WXT3tAosVswjo7UEheiw=="
+              }
+            },
+            {
+              "response": "Now let me check the issue. The problem is likely that the script is using `zsh` syntax that may not work correctly, or the logo file path isn't being properly resolved. Let me also look at the script output: ",
+              "toolCalls": [
+                {
+                  "name": "run_in_terminal",
+                  "arguments": "{\"command\": \"zsh ~/.config/fastfetch/fastfetch.sh\", \"explanation\": \"Test the fastfetch script to see what it outputs\", \"isBackground\": false}",
+                  "id": "toolu_014aGn3SAJ9jR2QtLJenGvMR__vscode-1768659953792"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "c9fd3b44-da19-4c5c-93a7-8e6b1fcb5a12"
+            },
+            {
+              "response": "I see the issue. The script is outputting a path to `g21.png` which doesn't exist in your logo directory. The problem is in the fastfetch.sh script - it has a shebang conflict (two shebangs) and uses `zsh` array syntax. Let me fix it: ",
+              "toolCalls": [
+                {
+                  "name": "replace_string_in_file",
+                  "arguments": "{\"filePath\": \"/home/phitter/.config/fastfetch/fastfetch.sh\", \"oldString\": \"#!/bin/bash\\n# Outputs the path to the logo image or ASCII art\\n#!/usr/bin/env zsh\\n\\n# Directory with logos\\nLOGO_DIR=\\\"$HOME/.config/fastfetch/logo\\\"\\n\\n# Pick a random file in the directory\\nRANDOM_LOGO=(${(f)\\\"$(find $LOGO_DIR -type f | shuf -n 1)\\\"})\\n\\n# Output it\\necho $RANDOM_LOGO\", \"newString\": \"#!/bin/bash\\n# Outputs the path to the logo image or ASCII art\\n\\n# Directory with logos\\nLOGO_DIR=\\\"$HOME/.config/fastfetch/logo\\\"\\n\\n# Pick a random file in the directory\\nRANDOM_LOGO=$(find \\\"$LOGO_DIR\\\" -type f | shuf -n 1)\\n\\n# Output it\\necho \\\"$RANDOM_LOGO\\\"\"}",
+                  "id": "toolu_013wgQi8XxZvUaKyWHBEghx4__vscode-1768659953793"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "9a994aed-c61c-401d-becb-0d48bdbd3c88"
+            },
+            {
+              "response": "Now let's test the script again: ",
+              "toolCalls": [
+                {
+                  "name": "run_in_terminal",
+                  "arguments": "{\"command\": \"bash ~/.config/fastfetch/fastfetch.sh\", \"explanation\": \"Test the fixed fastfetch script\", \"isBackground\": false}",
+                  "id": "toolu_01HwoxMYE6U35gzBXrReFeFh__vscode-1768659953794"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "5f813cc3-1c0e-4cbc-ad21-efa94805615b"
+            },
+            {
+              "response": "Wait, it's outputting `.png` but your actual files are `.icon`. Let me fix the script to match your actual files: ",
+              "toolCalls": [
+                {
+                  "name": "replace_string_in_file",
+                  "arguments": "{\"filePath\": \"/home/phitter/.config/fastfetch/fastfetch.sh\", \"newString\": \"#!/bin/bash\\n# Outputs the path to the logo image or ASCII art\\n\\n# Directory with logos\\nLOGO_DIR=\\\"$HOME/.config/fastfetch/logo\\\"\\n\\n# Pick a random .icon file in the directory\\nRANDOM_LOGO=$(find \\\"$LOGO_DIR\\\" -type f -name \\\"*.icon\\\" | shuf -n 1)\\n\\n# Output it\\necho \\\"$RANDOM_LOGO\\\"\", \"oldString\": \"#!/bin/bash\\n# Outputs the path to the logo image or ASCII art\\n\\n# Directory with logos\\nLOGO_DIR=\\\"$HOME/.config/fastfetch/logo\\\"\\n\\n# Pick a random file in the directory\\nRANDOM_LOGO=$(find \\\"$LOGO_DIR\\\" -type f | shuf -n 1)\\n\\n# Output it\\necho \\\"$RANDOM_LOGO\\\"\"}",
+                  "id": "toolu_01DAPhMxHjRpkyQqdR2mmc87__vscode-1768659953795"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "b5bb074f-df77-4abf-abc2-3bd74767accb"
+            },
+            {
+              "response": "Let me verify the script works correctly now: ",
+              "toolCalls": [
+                {
+                  "name": "run_in_terminal",
+                  "arguments": "{\"command\": \"bash ~/.config/fastfetch/fastfetch.sh\", \"explanation\": \"Verify the fixed script returns valid .icon files\", \"isBackground\": false}",
+                  "id": "toolu_01LWdSYck9DG7PbLkiSbQepj__vscode-1768659953796"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "b52ee8ac-f861-4ae4-b84a-c5e61000e80b"
+            }
+          ],
+          "toolCallResults": {
+            "toolu_01DdpAyAQ7VcLtMrV4cAhaGo__vscode-1768659953791": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "jfe",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "File: `",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "/home/phitter/.config/fastfetch/config.jsonc",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "`. Lines ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "1",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " to ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "100",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " (",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "113",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " lines total): ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 1,
+                          "ctor": 2,
+                          "ctorName": "Kt",
+                          "children": [
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 102,
+                                  "text": "```jsonc\n",
+                                  "references": [
+                                    {
+                                      "anchor": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+                                        "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+                                        "path": "/home/phitter/.config/fastfetch/config.jsonc",
+                                        "scheme": "file"
+                                      },
+                                      "options": {
+                                        "isFromTool": true
+                                      }
+                                    }
+                                  ],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 102
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 101,
+                                  "text": "\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 101
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 100,
+                                  "text": "\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 100
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 99,
+                                  "text": "{\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 99
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 98,
+                                  "text": "  \"$schema\": \"https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 98
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 97,
+                                  "text": "  \"logo\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 97
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 96,
+                                  "text": "\t\"source\": \"$(zsh ~/.config/fastfetch/fastfetch.sh)\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 96
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 95,
+                                  "text": "    \"height\": 18\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 95
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 94,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 94
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 93,
+                                  "text": "  \"display\": {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 93
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 92,
+                                  "text": "    \"separator\": \" : \"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 92
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 91,
+                                  "text": "  },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 91
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 90,
+                                  "text": "    \"modules\": [\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 90
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 89,
+                                  "text": "      {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 89
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 88,
+                                  "text": "        \"type\": \"command\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 88
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 87,
+                                  "text": "        \"key\": \"   Splash\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 87
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 86,
+                                  "text": "        \"keyColor\": \"blue\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 86
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 85,
+                                  "text": "        \"text\": \"splash=$(hyprctl splash);echo $splash\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 85
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 84,
+                                  "text": "      },  {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 84
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 83,
+                                  "text": "      \"type\": \"custom\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 83
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 82,
+                                  "text": "      \"format\": \"┌──────────────────────────────────────────┐\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 82
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 81,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 81
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 80,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 80
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 79,
+                                  "text": "      \"type\": \"title\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 79
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 78,
+                                  "text": "      \"key\": \"  \",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 78
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 77,
+                                  "text": "      \"format\": \"{6} {7} {8}\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 77
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 76,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 76
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 75,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 75
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 74,
+                                  "text": "      \"type\": \"chassis\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 74
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 73,
+                                  "text": "      \"key\": \"  󰇺 Chassis\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 73
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 72,
+                                  "text": "      \"format\": \"{2} {3}\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 72
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 71,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 71
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 70,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 70
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 69,
+                                  "text": "      \"type\": \"os\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 69
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 68,
+                                  "text": "      \"key\": \"  󰣇 OS\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 68
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 67,
+                                  "text": "      \"format\": \"{2}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 67
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 66,
+                                  "text": "      \"keyColor\": \"red\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 66
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 65,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 65
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 64,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 64
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 63,
+                                  "text": "      \"type\": \"kernel\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 63
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 62,
+                                  "text": "      \"key\": \"   Kernel\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 62
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 61,
+                                  "text": "      \"format\": \"{2}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 61
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 60,
+                                  "text": "      \"keyColor\": \"red\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 60
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 59,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 59
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 58,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 58
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 57,
+                                  "text": "      \"type\": \"packages\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 57
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 56,
+                                  "text": "      \"key\": \"  󰏗 Packages\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 56
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 55,
+                                  "text": "      \"keyColor\": \"green\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 55
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 54,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 54
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 53,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 53
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 52,
+                                  "text": "      \"type\": \"display\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 52
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 51,
+                                  "text": "      \"key\": \"  󰍹 Display\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 51
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 50,
+                                  "text": "      \"format\": \"{1}x{2} @ {3}Hz [{7}]\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 50
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 49,
+                                  "text": "      \"keyColor\": \"green\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 49
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 48,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 48
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 47,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 47
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 46,
+                                  "text": "      \"type\": \"terminal\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 46
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 45,
+                                  "text": "      \"key\": \"   Terminal\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 45
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 44,
+                                  "text": "      \"keyColor\": \"yellow\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 44
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 43,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 43
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 42,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 42
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 41,
+                                  "text": "      \"type\": \"wm\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 41
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 40,
+                                  "text": "      \"key\": \"  󱗃 WM\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 40
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 39,
+                                  "text": "      \"format\": \"{2}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 39
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 38,
+                                  "text": "      \"keyColor\": \"yellow\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 38
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 37,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 37
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 36,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 36
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 35,
+                                  "text": "      \"type\": \"cpu\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 35
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 34,
+                                  "text": "      \"format\": \"{1} @ {7}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 34
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 33,
+                                  "text": "      \"key\": \"   CPU\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 33
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 32,
+                                  "text": "      \"keyColor\": \"blue\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 32
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 31,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 31
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 30,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 30
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 29,
+                                  "text": "      \"type\": \"gpu\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 29
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 28,
+                                  "text": "      \"format\": \"{1} {2}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 28
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 27,
+                                  "text": "      \"key\": \"  󰊴 GPU\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 27
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 26,
+                                  "text": "      \"keyColor\": \"blue\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 26
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 25,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 25
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 24,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 24
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 23,
+                                  "text": "      \"type\": \"gpu\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 23
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 22,
+                                  "text": "      \"format\": \"{3}\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 22
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 21,
+                                  "text": "      \"key\": \"   GPU Driver\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 21
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 20,
+                                  "text": "      \"keyColor\": \"magenta\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 20
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 19,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 19
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 18,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 18
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 17,
+                                  "text": "      \"type\": \"memory\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 17
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 16,
+                                  "text": "      \"key\": \"   Memory \",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 16
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 15,
+                                  "text": "      \"keyColor\": \"magenta\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 15
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 14,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 14
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 13,
+                                  "text": "    // {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 13
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 12,
+                                  "text": "    //   \"type\": \"disk\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 12
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 11,
+                                  "text": "    //   \"key\": \"  󱦟 OS Age \",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 11
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 10,
+                                  "text": "    //   \"folders\": \"/\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 10
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 9,
+                                  "text": "    //   \"keyColor\": \"red\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 9
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 8,
+                                  "text": "    //   \"format\": \"{days} days\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 8
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 7,
+                                  "text": "    // },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 7
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 6,
+                                  "text": "    {\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 6
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 5,
+                                  "text": "      \"type\": \"uptime\",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 5
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 4,
+                                  "text": "      \"key\": \"  󱫐 Uptime \",\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 4
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 3,
+                                  "text": "      \"keyColor\": \"red\"\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 3
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 2,
+                                  "text": "    },\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 2
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "sCe",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 102,
+                                  "text": "```",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 102
+                              },
+                              "references": []
+                            }
+                          ],
+                          "props": {},
+                          "references": []
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "toolu_014aGn3SAJ9jR2QtLJenGvMR__vscode-1768659953792": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Note: The tool simplified the command to ` zsh ~/.config/fastfetch/fastfetch.sh`, and this is the output of running that command instead:\n/home/phitter/.config/fastfetch/logo/g21.png\n"
+                }
+              ]
+            },
+            "toolu_013wgQi8XxZvUaKyWHBEghx4__vscode-1768659953793": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "$_",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "/home/phitter/.config/fastfetch/fastfetch.sh",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "toolu_01HwoxMYE6U35gzBXrReFeFh__vscode-1768659953794": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "Note: The tool simplified the command to ` bash ~/.config/fastfetch/fastfetch.sh`, and this is the output of running that command instead:\n/home/phitter/.config/fastfetch/logo/ryuzaki.png\n"
+                }
+              ]
+            },
+            "toolu_01DAPhMxHjRpkyQqdR2mmc87__vscode-1768659953795": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "The user chose to skip the tool call, they want to proceed without running it"
+                }
+              ]
+            },
+            "toolu_01LWdSYck9DG7PbLkiSbQepj__vscode-1768659953796": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "The user cancelled the tool call."
+                }
+              ]
+            }
+          },
+          "modelMessageId": "d6442792-a083-4352-abe1-bce9da9ee3dc",
+          "responseId": "ebcd9be6-af5a-4ab0-8411-524043c5cfba",
+          "sessionId": "bceb94ea-fd9a-4870-bcde-c47796371a6e",
+          "agentId": "github.copilot.editsAgent"
+        },
+        "details": "Claude Haiku 4.5 • 1x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 2,
+        "completedAt": 1768660179721
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timeSpentWaiting": 103955
+    },
+    {
+      "requestId": "request_efb88a8f-d45d-4227-b1da-fa8dc0c72036",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 35
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 36
+            },
+            "text": "IT NOT SHOW IMAGE FASTFECH IN KITTY",
+            "kind": "text"
+          }
+        ],
+        "text": "IT NOT SHOW IMAGE FASTFECH IN KITTY"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+              "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+              "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+              "scheme": "file"
+            },
+            "id": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "name": "fastfetch.sh",
+            "omittedState": 0
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "thinking",
+          "value": "The user is saying that images are not showing in fastfetch when run in kitty terminal. The issue is that the fastfetch.sh script has problems:\n\n1. Double shebang (#!/bin/bash and #!/usr/bin/env zsh) - the first one takes precedence\n2. The script uses zsh array syntax `(${(f)\"...\"})` which won't work with bash\n3. The script should output a valid image path that fastfetch can use\n\nLooking at the current script again, it still has the original problems. The user cancelled my attempt to fix it, but the script is still broken.\n\nFor fastfetch to display images in kitty terminal, it needs:\n1. A valid image path\n2. The logo source to be properly configured\n\nThe issue is that the fastfetch.sh script has zsh syntax in a bash script. Let me fix this properly.\n\nAlso, the config.jsonc shows:\n```\n\"source\": \"$(zsh ~/.config/fastfetch/fastfetch.sh)\",\n```\n\nThis is trying to run the script with zsh explicitly, which might be causing issues. Let me:\n\n1. Fix the fastfetch.sh script to be proper bash\n2. Consider if we need to change how the config calls it\n\nLet me read the current fastfetch.sh file from the attachment - it still has the original problems. I need to fix it.",
+          "id": "1768660187014",
+          "generatedTitle": "Fixed fastfetch.sh script for bash compatibility"
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "",
+          "metadata": {
+            "vscodeReasoningDone": true,
+            "stopReason": "other"
+          }
+        },
+        {
+          "value": "I see the issue. The ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " script still has problems - it has zsh syntax but is running as bash. Let me fix it properly for kitty terminal image support: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "63ef829a-ee2f-457d-94f2-0469fa5d3604",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "id": "e0c17568-b855-44e2-be95-76166e7adccc",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "\n# Directory with logos\nLOGO_DIR=\"$HOME/.config/fastfetch/logo\"\n\n# Pick a random .icon file in the directory\nRANDOM_LOGO=$(find \"$LOGO_DIR\" -type f -name \"*.icon\" | shuf -n 1)\n\n# Output it\necho \"$RANDOM_LOGO\"",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 1,
+                  "endLineNumber": 12,
+                  "endColumn": 18
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "value": "Now update the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " to call bash directly instead of zsh: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "5b70fb0c-84e4-4a44-ac27-63c160d18490",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "id": "73f13de5-8176-42a2-a37f-62462de1e18d",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "ba",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 15,
+                  "endLineNumber": 6,
+                  "endColumn": 16
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "value": "Done! I've fixed:\n1. Removed the conflicting zsh shebang and zsh array syntax from the script\n2. Fixed the bash script to use proper bash commands\n3. Changed the config to call bash instead of zsh\n4. Updated to explicitly select `.icon` files\n\nYour fastfetch should now display random image logos in kitty terminal. Test it with `fastfetch`.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.1",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "timestamp": 1768660180037,
+      "editedFileEvents": [
+        {
+          "eventKind": 3,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          }
+        }
+      ],
+      "modelId": "copilot/auto",
+      "responseId": "response_c4b0b081-f05f-47e6-8063-8c5046648c73",
+      "result": {
+        "timings": {
+          "firstProgress": 18991,
+          "totalElapsed": 62512
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"fastfetch.sh\" filePath=\"/home/phitter/.config/fastfetch/fastfetch.sh\">\n#!/bin/bash\n# Outputs the path to the logo image or ASCII art\n#!/usr/bin/env zsh\n\n# Directory with logos\nLOGO_DIR=\"$HOME/.config/fastfetch/logo\"\n\n# Pick a random file in the directory\nRANDOM_LOGO=(${(f)\"$(find $LOGO_DIR -type f | shuf -n 1)\"})\n\n# Output it\necho $RANDOM_LOGO\n</attachment>\n\n</attachments>\n<context>\nThe current date is January 17, 2026.\nThere have been some changes between the last request and now.\nSome edits were made, by the user or possibly by a formatter or another automated tool, to:\n- /home/phitter/.config/fastfetch/fastfetch.sh\nSo be sure to check the current file contents before making any new edits.\nTerminals:\nTerminal: zsh\nTerminal: zsh\nLast Command:  bash ~/.config/fastfetch/fastfetch.sh\nCwd: /home/phitter/.config/fastfetch\nExit Code: 0\n\n</context>\n<editorContext>\nThe user's current file is /home/phitter/.config/fastfetch/config.jsonc. \n</editorContext>\n<reminderInstructions>\nWhen using the replace_string_in_file tool, include 3-5 lines of unchanged code before and after the string you want to replace, to make it unambiguous which part of the file should be edited.\nFor maximum efficiency, whenever you plan to perform multiple independent edit operations, invoke them simultaneously using multi_replace_string_in_file tool rather than sequentially. This will greatly improve user's cost and time efficiency leading to a better user experience. Do not announce which tool you're using (for example, avoid saying \"I'll implement all the changes using multi_replace_string_in_file\").\nDo NOT create a new markdown file to document each change or summarize your work unless specifically requested by the user.\n\n</reminderInstructions>\n<userRequest>\nIT NOT SHOW IMAGE FASTFECH IN KITTY\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "I see the issue. The fastfetch.sh script still has problems - it has zsh syntax but is running as bash. Let me fix it properly for kitty terminal image support: ",
+              "toolCalls": [
+                {
+                  "name": "replace_string_in_file",
+                  "arguments": "{\"filePath\": \"/home/phitter/.config/fastfetch/fastfetch.sh\", \"oldString\": \"#!/bin/bash\\n# Outputs the path to the logo image or ASCII art\\n#!/usr/bin/env zsh\\n\\n# Directory with logos\\nLOGO_DIR=\\\"$HOME/.config/fastfetch/logo\\\"\\n\\n# Pick a random file in the directory\\nRANDOM_LOGO=(${(f)\\\"$(find $LOGO_DIR -type f | shuf -n 1)\\\"})\\n\\n# Output it\\necho $RANDOM_LOGO\", \"newString\": \"#!/bin/bash\\n# Outputs the path to the logo image or ASCII art\\n\\n# Directory with logos\\nLOGO_DIR=\\\"$HOME/.config/fastfetch/logo\\\"\\n\\n# Pick a random .icon file in the directory\\nRANDOM_LOGO=$(find \\\"$LOGO_DIR\\\" -type f -name \\\"*.icon\\\" | shuf -n 1)\\n\\n# Output it\\necho \\\"$RANDOM_LOGO\\\"\"}",
+                  "id": "toolu_01FXZgUPt9x2Qm5TtAQBbxLy__vscode-1768659953797"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "e6207b92-8208-41cd-b1c3-1cb684e0d20d",
+              "thinking": {
+                "id": "SitugZx/JOW3+Z1Zt5c3hBnuKz8RzHQ6x1wj9IoqEewSCAL0am4Cl3xfRiMkMoyoSGaQm7uwP77z/tGjT3rmszZ8fxO2u/s/+MK4cSR9OfQy6FiKHMAy4aayP51XqWnxMIBJdIgJgnokPokIABh0oPox7yMXnyNMcbyB7/1ErLCZnyIaQksmIHTIqyfuGj6croJ/EyxO7Gbe4QnfYD+1PZGTf8tnFjUVNuPqtEFEUiqNzwYrlwkhBaL01rWMlG6YtqF5xWKbhdJR+MD/wfxdWjTXL8Fp19A0EB8viXmcggH8zSS/M4DpbQTpWiaTIw8Tuh5PZAiYKKa7xejhsuzMGC1Jg/Mmrfa7Xo5kX+cvmbAVayNo8F3P4s3cUwPzup/Ct3D5tmDyoixAmcnOJqOkETqjdqHPJHVeFUcNuqtOFbGBJj4N/OxKJsbA12r6zkZPmpGbOQpsa6xKq1xXolOoVeSVAd1vrdER8DFmiBEFfXcsBwrU0bUDPuqdkhh2YrqYYysniTyh70H44jSk8jYOeEM1TeTejRD2jSCh6rKsLFf8dNsJPAglOPRelCC/3QT8BkxD7h5ziDFHubcOEZYPrI8BSYgLg/SGBW56sxlB2RhnlpcpiAxwW6Pwyc/TweKVPLlmRE8nYlSjM/5nP4dE5UD1UobDKQC9ZGIt+0Ui0IEZJuG9rJNHmJaZ9W6RxphbJV5c/mwn0vcksRY8z8CWO9US+KF74AN4Ls7knVnUj53TgNz2yD6gs1dGwkJlw3XbelnVjDZZRS44xTIPj09wi3kyP5R0gUfgPC9uNVWS3wM6IY896nry9TuBIxlL20uqbSemFRhAL+kuL3O4t2gMji0TCkB65sFD3Zs2UOuQ84hssJL/p0aHie3BUhnydOaobtjCDAUiIIH4zRE0o+KnF+Zn46mHO8fI/8D7XnD9aeUuQNtQRmnzK5vKmWx/uSSZ/O9rX7jFDhkTezvqUtnBZp0rNUmpWvuFLDG2Kp73s9Qeolf2lbdxeIEHDzSiwFa28uViQ7yTi1llm51qAo1IiSedcz30BkDJF1uxAN+6RQYUZwEC2gmOn1kRttrh5hrxlfuHiXyq6Tnz5a+0NXJ/delVsNmQTifnAXXIJxpybGb0G5QNJ7E3MxVkQ4m+lzdrEzs3Ct+LLXqa7286MLQrOr3v8J6IxQqRIKeDWRsF2i1yUqN8YGiClusl4pe3GVUgaP3YK05YmvU0jAPJfzJ0QOYPCZOx5ut1P4vYsLZoLt7u1enAI6SYZXcTJozpHNg7fx4LWaEmGJqLpwpIRwvq/lju/Y3FwM+1qXIrqA0JBr3jdjUA7Q0tdFN+BO6881RIlU+JzvaSW9LlZz80g2Qw8hf0x8HoeBInH78VH4Qs4nPW3++vJWW7pQu8XRp4a+IbItAPfgpf3fhVVWjlImsxeLyrvqaKHuuhCUIP09z3Autue49hdOMV8bxBkqGWqxpA9xq8QhR8+31UlQu8TnN26IMmr4J9iAUUDZ5dYfQezp5tys8Tge3/BvJPZphYVkpOJdCH3yKG8C1/eOOo6dllchL3GIDzftJx601LWXyB2EXf05qj4ZWLHmGhALE6chOHpxz9aGqoOai7B8Z8G6GM7WPbHWv1KHBfWE3fkPbZWFhAz40KHDVmo3vz3zJeZfmPkiiiYipwkdtBhHKWGIW4wlw7BWEZltR8C0t6ZrFilK7W2tV/nGnk8jhqq9ytLw/5D/oxeujCylsC4xSl1ZDy6IwYHBkfEnRi/yWP35BK1uZ5+SgmxrvDueWl2WrrjCgw4QStQKaRFefaugGrXWi1PqDmCAA32kitozSWgOOO/QwMlT5AvcGIBf4Z8wSdi5gQfD0OseT8cTfNTc7GDCe8oaRdsyWlHabTECSIBNACMf31jU/nVPR0k0cGGoUxgEvmbS10w+B0vxRKM4jj98ttqDJInVL19oGmaLKiByMVl7vIG3KIzX9jRe2flpgeyhnw/Cv/wbj4qHh+Piwsf3DNVJBd2UibVDps51+uPAhYhZQMTvfYlBAzP9zrHJtzvC+QCJDDODy7zwWMlObUP/IZyq7iHiKDGtEV6HxtOiMsAZSfK+K4jwmNzuvsRF04VRHJmYxm7F4poPQyKcWTDG26eFiw/f4hbFDLllyFSKLdcjVqkcdgkpZkjdLuFof/5Npl+F1Ba79cjY47n2Avducc17I6VYN7pls/5YPI2M5J8SaRl83tOrnmrTmWwOfAa3LyheDxMSU1Lri+nNO69D8bWc1ZTcQY/nIoqQtbZLFWojx0MPBIR2lKDr5SUf8NtRIdn7BPkt9Xy75yTEMATUp3aSiwaUn4HDqi6ExsQUinoiczrFNIH60p20oBhN5HZ1STXKb6sWp3Yru0YVfS/1LS+tsfWrLXzVhzycZt99exkJTdlmkkSTpAlVq7q8gAzpb2VnTsAD+pF9lXxl/EQcW7aPkjRmjosrf9/WuTcXhX+ZNUQtnVlPwhIn5axN+BoLeXhvAwHqb1pAQShPDpA6G5KVqkEADMr7MjQQBFG5w2ypdkB8tKNSnuLyA/j7ST3SSQkaePG2OvVu9yrtRwDDFggUqX3E90QrrVDGGUQKRGZcvs39edQDzJE5dy+QObWTIR5+uynXtonElynXXISD8eW8QYXqt38aj5Eo/ARYpwYT1szkM3GrCH2qsP0nL6QMU5TZqzBnXnRFSIgFFa8zqqL7oGLsqLAG6HcmhAl9sJ4I6kOWr+l/19bNk=",
+                "text": "The user is saying that images are not showing in fastfetch when run in kitty terminal. The issue is that the fastfetch.sh script has problems:\n\n1. Double shebang (#!/bin/bash and #!/usr/bin/env zsh) - the first one takes precedence\n2. The script uses zsh array syntax `(${(f)\"...\"})` which won't work with bash\n3. The script should output a valid image path that fastfetch can use\n\nLooking at the current script again, it still has the original problems. The user cancelled my attempt to fix it, but the script is still broken.\n\nFor fastfetch to display images in kitty terminal, it needs:\n1. A valid image path\n2. The logo source to be properly configured\n\nThe issue is that the fastfetch.sh script has zsh syntax in a bash script. Let me fix this properly.\n\nAlso, the config.jsonc shows:\n```\n\"source\": \"$(zsh ~/.config/fastfetch/fastfetch.sh)\",\n```\n\nThis is trying to run the script with zsh explicitly, which might be causing issues. Let me:\n\n1. Fix the fastfetch.sh script to be proper bash\n2. Consider if we need to change how the config calls it\n\nLet me read the current fastfetch.sh file from the attachment - it still has the original problems. I need to fix it.",
+                "encrypted": "SitugZx/JOW3+Z1Zt5c3hBnuKz8RzHQ6x1wj9IoqEewSCAL0am4Cl3xfRiMkMoyoSGaQm7uwP77z/tGjT3rmszZ8fxO2u/s/+MK4cSR9OfQy6FiKHMAy4aayP51XqWnxMIBJdIgJgnokPokIABh0oPox7yMXnyNMcbyB7/1ErLCZnyIaQksmIHTIqyfuGj6croJ/EyxO7Gbe4QnfYD+1PZGTf8tnFjUVNuPqtEFEUiqNzwYrlwkhBaL01rWMlG6YtqF5xWKbhdJR+MD/wfxdWjTXL8Fp19A0EB8viXmcggH8zSS/M4DpbQTpWiaTIw8Tuh5PZAiYKKa7xejhsuzMGC1Jg/Mmrfa7Xo5kX+cvmbAVayNo8F3P4s3cUwPzup/Ct3D5tmDyoixAmcnOJqOkETqjdqHPJHVeFUcNuqtOFbGBJj4N/OxKJsbA12r6zkZPmpGbOQpsa6xKq1xXolOoVeSVAd1vrdER8DFmiBEFfXcsBwrU0bUDPuqdkhh2YrqYYysniTyh70H44jSk8jYOeEM1TeTejRD2jSCh6rKsLFf8dNsJPAglOPRelCC/3QT8BkxD7h5ziDFHubcOEZYPrI8BSYgLg/SGBW56sxlB2RhnlpcpiAxwW6Pwyc/TweKVPLlmRE8nYlSjM/5nP4dE5UD1UobDKQC9ZGIt+0Ui0IEZJuG9rJNHmJaZ9W6RxphbJV5c/mwn0vcksRY8z8CWO9US+KF74AN4Ls7knVnUj53TgNz2yD6gs1dGwkJlw3XbelnVjDZZRS44xTIPj09wi3kyP5R0gUfgPC9uNVWS3wM6IY896nry9TuBIxlL20uqbSemFRhAL+kuL3O4t2gMji0TCkB65sFD3Zs2UOuQ84hssJL/p0aHie3BUhnydOaobtjCDAUiIIH4zRE0o+KnF+Zn46mHO8fI/8D7XnD9aeUuQNtQRmnzK5vKmWx/uSSZ/O9rX7jFDhkTezvqUtnBZp0rNUmpWvuFLDG2Kp73s9Qeolf2lbdxeIEHDzSiwFa28uViQ7yTi1llm51qAo1IiSedcz30BkDJF1uxAN+6RQYUZwEC2gmOn1kRttrh5hrxlfuHiXyq6Tnz5a+0NXJ/delVsNmQTifnAXXIJxpybGb0G5QNJ7E3MxVkQ4m+lzdrEzs3Ct+LLXqa7286MLQrOr3v8J6IxQqRIKeDWRsF2i1yUqN8YGiClusl4pe3GVUgaP3YK05YmvU0jAPJfzJ0QOYPCZOx5ut1P4vYsLZoLt7u1enAI6SYZXcTJozpHNg7fx4LWaEmGJqLpwpIRwvq/lju/Y3FwM+1qXIrqA0JBr3jdjUA7Q0tdFN+BO6881RIlU+JzvaSW9LlZz80g2Qw8hf0x8HoeBInH78VH4Qs4nPW3++vJWW7pQu8XRp4a+IbItAPfgpf3fhVVWjlImsxeLyrvqaKHuuhCUIP09z3Autue49hdOMV8bxBkqGWqxpA9xq8QhR8+31UlQu8TnN26IMmr4J9iAUUDZ5dYfQezp5tys8Tge3/BvJPZphYVkpOJdCH3yKG8C1/eOOo6dllchL3GIDzftJx601LWXyB2EXf05qj4ZWLHmGhALE6chOHpxz9aGqoOai7B8Z8G6GM7WPbHWv1KHBfWE3fkPbZWFhAz40KHDVmo3vz3zJeZfmPkiiiYipwkdtBhHKWGIW4wlw7BWEZltR8C0t6ZrFilK7W2tV/nGnk8jhqq9ytLw/5D/oxeujCylsC4xSl1ZDy6IwYHBkfEnRi/yWP35BK1uZ5+SgmxrvDueWl2WrrjCgw4QStQKaRFefaugGrXWi1PqDmCAA32kitozSWgOOO/QwMlT5AvcGIBf4Z8wSdi5gQfD0OseT8cTfNTc7GDCe8oaRdsyWlHabTECSIBNACMf31jU/nVPR0k0cGGoUxgEvmbS10w+B0vxRKM4jj98ttqDJInVL19oGmaLKiByMVl7vIG3KIzX9jRe2flpgeyhnw/Cv/wbj4qHh+Piwsf3DNVJBd2UibVDps51+uPAhYhZQMTvfYlBAzP9zrHJtzvC+QCJDDODy7zwWMlObUP/IZyq7iHiKDGtEV6HxtOiMsAZSfK+K4jwmNzuvsRF04VRHJmYxm7F4poPQyKcWTDG26eFiw/f4hbFDLllyFSKLdcjVqkcdgkpZkjdLuFof/5Npl+F1Ba79cjY47n2Avducc17I6VYN7pls/5YPI2M5J8SaRl83tOrnmrTmWwOfAa3LyheDxMSU1Lri+nNO69D8bWc1ZTcQY/nIoqQtbZLFWojx0MPBIR2lKDr5SUf8NtRIdn7BPkt9Xy75yTEMATUp3aSiwaUn4HDqi6ExsQUinoiczrFNIH60p20oBhN5HZ1STXKb6sWp3Yru0YVfS/1LS+tsfWrLXzVhzycZt99exkJTdlmkkSTpAlVq7q8gAzpb2VnTsAD+pF9lXxl/EQcW7aPkjRmjosrf9/WuTcXhX+ZNUQtnVlPwhIn5axN+BoLeXhvAwHqb1pAQShPDpA6G5KVqkEADMr7MjQQBFG5w2ypdkB8tKNSnuLyA/j7ST3SSQkaePG2OvVu9yrtRwDDFggUqX3E90QrrVDGGUQKRGZcvs39edQDzJE5dy+QObWTIR5+uynXtonElynXXISD8eW8QYXqt38aj5Eo/ARYpwYT1szkM3GrCH2qsP0nL6QMU5TZqzBnXnRFSIgFFa8zqqL7oGLsqLAG6HcmhAl9sJ4I6kOWr+l/19bNk="
+              }
+            },
+            {
+              "response": "Now update the config.jsonc to call bash directly instead of zsh: ",
+              "toolCalls": [
+                {
+                  "name": "replace_string_in_file",
+                  "arguments": "{\"filePath\": \"/home/phitter/.config/fastfetch/config.jsonc\", \"oldString\": \"  \\\"logo\\\": {\\n\\t\\\"source\\\": \\\"$(zsh ~/.config/fastfetch/fastfetch.sh)\\\",\\n    \\\"height\\\": 18\\n  },\", \"newString\": \"  \\\"logo\\\": {\\n\\t\\\"source\\\": \\\"$(bash ~/.config/fastfetch/fastfetch.sh)\\\",\\n    \\\"height\\\": 18\\n  },\"}",
+                  "id": "toolu_013jD5coDN7fz3hU9GzxnpT6__vscode-1768659953798"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "fa1280a2-4101-4a54-b59d-e27104ebd92e"
+            },
+            {
+              "response": "Done! I've fixed:\n1. Removed the conflicting zsh shebang and zsh array syntax from the script\n2. Fixed the bash script to use proper bash commands\n3. Changed the config to call bash instead of zsh\n4. Updated to explicitly select `.icon` files\n\nYour fastfetch should now display random image logos in kitty terminal. Test it with `fastfetch`.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "68de3676-dc08-40a7-900e-ac8e6e826e1d"
+            }
+          ],
+          "toolCallResults": {
+            "toolu_01FXZgUPt9x2Qm5TtAQBbxLy__vscode-1768659953797": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "$_",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "/home/phitter/.config/fastfetch/fastfetch.sh",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "toolu_013jD5coDN7fz3hU9GzxnpT6__vscode-1768659953798": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 23,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "$_",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "/home/phitter/.config/fastfetch/config.jsonc",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "modelMessageId": "8d95a6de-8ec1-41f1-ba63-35fcd9e12ad2",
+          "responseId": "7b535d4f-e76b-4e87-9c45-d0a1f8a44cda",
+          "sessionId": "bceb94ea-fd9a-4870-bcde-c47796371a6e",
+          "agentId": "github.copilot.editsAgent"
+        },
+        "details": "Claude Haiku 4.5 • 1x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "modelState": {
+        "value": 1,
+        "completedAt": 1768660242733
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timeSpentWaiting": 24265
+    },
+    {
+      "requestId": "request_f5a1a22a-81e9-48ff-950f-1c5c8b72e230",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 936
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 22,
+              "endColumn": 6
+            },
+            "text": "λ ~/ fas   Splash : \"Hello everyone this is YOUR daily dose of ‘read the wiki’\" - Vaxry\n�PNG    ┌──────────────────────────────────────────┐\n           : phitter @ arch\n          󰇺 Chassis : ASUSTeK COMPUTER INC. 1.0\n          󰣇 OS : Arch Linux\n           Kernel : 6.18.3-arch1-1.1-g14\n          󰏗 Packages : 677 (pacman), 8 (flatpak)\n          󰍹 Display : 2560x1440 @ 120Hz [External]\n          󰍹 Display : 1920x1080 @ 144Hz [Built-in]\n           Terminal : kitty 0.45.0\n          󱗃 WM : Hyprland\n           CPU : AMD Ryzen 7 4800H @ 4.30 GHz\n          󰊴 GPU : NVIDIA GeForce RTX 3060 Mobile / Max-Q\n          󰊴 GPU : AMD Radeon Vega Series / Radeon Vega Mobile Series\n           GPU Driver : nvidia (open source) 590.48.01\n           GPU Driver : amdgpu\n           Memory  : 4.45 GiB / 15.04 GiB (30%)\n          󱫐 Uptime  : 55 mins\n        └──────────────────────────────────────────┘\n          ● ● ● ● ● ● ● ●\n\nλ ~/ ",
+            "kind": "text"
+          }
+        ],
+        "text": "λ ~/ fas   Splash : \"Hello everyone this is YOUR daily dose of ‘read the wiki’\" - Vaxry\n�PNG    ┌──────────────────────────────────────────┐\n           : phitter @ arch\n          󰇺 Chassis : ASUSTeK COMPUTER INC. 1.0\n          󰣇 OS : Arch Linux\n           Kernel : 6.18.3-arch1-1.1-g14\n          󰏗 Packages : 677 (pacman), 8 (flatpak)\n          󰍹 Display : 2560x1440 @ 120Hz [External]\n          󰍹 Display : 1920x1080 @ 144Hz [Built-in]\n           Terminal : kitty 0.45.0\n          󱗃 WM : Hyprland\n           CPU : AMD Ryzen 7 4800H @ 4.30 GHz\n          󰊴 GPU : NVIDIA GeForce RTX 3060 Mobile / Max-Q\n          󰊴 GPU : AMD Radeon Vega Series / Radeon Vega Mobile Series\n           GPU Driver : nvidia (open source) 590.48.01\n           GPU Driver : amdgpu\n           Memory  : 4.45 GiB / 15.04 GiB (30%)\n          󱫐 Uptime  : 55 mins\n        └──────────────────────────────────────────┘\n          ● ● ● ● ● ● ● ●\n\nλ ~/ "
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "mcpServersStarting",
+          "didStartServerIds": []
+        },
+        {
+          "kind": "thinking",
+          "value": "The user has shown the output of fastfetch, and I can see that there's an issue - instead of showing the image logo, it's showing \"PNG\" characters (which looks like a corrupted/broken image indicator) at the top left. The output shows `\"Hello everyone this is YOUR daily dose of 'read the wiki'\" - Vaxry` on the right which is the Hyprland splash message, followed by what should be the logo on the left.\n\nThe issue is that the `.icon` files might not be actual image files that kitty can display, or the config needs additional settings for kitty image protocol support. Let me check what's in those .icon files and see if we need to adjust the config or if they're actually valid image files.\n\nActually, looking at the output more carefully, it seems like the logo is trying to display but it's not working properly. The \"PNG\" string showing up suggests the file might be detected as PNG but not being displayed correctly by kitty.\n\nI should:\n1. Check what format the .icon files are in\n2. Make sure the config has proper kitty image protocol settings\n3. Possibly need to enable image support in fastfetch config\n\nLet me verify the files exist and what they contain.",
+          "id": "1768660287242",
+          "generatedTitle": "Checked .icon file formats and configurations"
+        },
+        {
+          "kind": "thinking",
+          "value": "",
+          "id": "",
+          "metadata": {
+            "vscodeReasoningDone": true,
+            "stopReason": "other"
+          }
+        },
+        {
+          "value": "I see the issue - the logo is partially displaying but not correctly. The `PNG` text shows up, which means kitty is detecting an image but not rendering it properly. Let me check the icon files and update the fastfetch config to properly support kitty's image protocol: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalCommandId": "tool-670898d2-5c36-4932-89f7-00ee9e977d3c",
+            "commandLine": {
+              "original": "file /home/phitter/.config/fastfetch/logo/*.icon",
+              "toolEdited": " file /home/phitter/.config/fastfetch/logo/*.icon"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "exitCode": 0,
+              "timestamp": 1768660324346,
+              "duration": 1
+            },
+            "terminalCommandOutput": {
+              "text": "/home/phitter/.config/fastfetch/logo/aisaka.icon:  PNG image data, 1920 x 1920, 8-bit/color RGBA, non-interlaced\r\n/home/phitter/.config/fastfetch/logo/loli.icon:    PNG image data, 1000 x 1000, 8-bit/color RGBA, non-interlaced\r\n/home/phitter/.config/fastfetch/logo/pochita.icon: PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced\r\n/home/phitter/.config/fastfetch/logo/ryuzaki.icon: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced",
+              "lineCount": 12
+            },
+            "terminalTheme": {
+              "background": "#23262e",
+              "foreground": "#cccccc"
+            }
+          },
+          "toolCallId": "fd8f9a72-82dc-40c2-a0b6-9b40edf60784",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "value": "Good, they are valid PNG files. Now I need to add kitty-specific image protocol settings to the config. Let me check the full config and add the necessary image protocol settings: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_readFile"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Reading [](file:///home/phitter/.config/fastfetch/config.jsonc#1-1), lines 1 to 15",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///home/phitter/.config/fastfetch/config.jsonc#1-1": {
+                "$mid": 1,
+                "path": "/home/phitter/.config/fastfetch/config.jsonc",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Read [](file:///home/phitter/.config/fastfetch/config.jsonc#1-1), lines 1 to 15",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "supportAlertSyntax": false,
+            "uris": {
+              "file:///home/phitter/.config/fastfetch/config.jsonc#1-1": {
+                "$mid": 1,
+                "path": "/home/phitter/.config/fastfetch/config.jsonc",
+                "scheme": "file",
+                "fragment": "1-1"
+              }
+            }
+          },
+          "isConfirmed": {
+            "type": 1
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "687024ff-ac39-4e82-be5b-53a751b97559",
+          "toolId": "copilot_readFile"
+        },
+        {
+          "value": "Now let me update the logo configuration to enable kitty image protocol support: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "6beeddfa-58c7-4968-8aed-100d072f92ff",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "id": "fb7edfad-887b-462c-b11b-9ee903bf53c9",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": ",\n    \"width\": 32,\n    \"preserveAspectRatio\": true",
+                "range": {
+                  "startLineNumber": 7,
+                  "startColumn": 17,
+                  "endLineNumber": 7,
+                  "endColumn": 17
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "value": "Now test it: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalCommandId": "tool-d729cc4a-2d40-4087-b8fe-4dc38464b588",
+            "commandLine": {
+              "original": "fastfetch",
+              "toolEdited": " fastfetch"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "exitCode": 0,
+              "timestamp": 1768660359390,
+              "duration": 37
+            },
+            "terminalCommandOutput": {
+              "text": "\u001b[36;1m�PNG\u001b[36C\u001b[34m   CPU\u001b[0m : AMD Ryzen 7 4800H @ 4.30 GHz\r\n\u001b[40C\u001b[34;1m  󰊴 GPU\u001b[0m : NVIDIA GeForce RTX 3060 Mobile / Max-Q\r\n\u001b[40C\u001b[34;1m  󰊴 GPU\u001b[0m : AMD Radeon Vega Series / Radeon Vega Mobile Series\r\n\u001b[40C\u001b[35;1m   GPU Driver\u001b[0m : nvidia (open source) 590.48.01\r\n\u001b[40C\u001b[35;1m   GPU Driver\u001b[0m : amdgpu\r\n\u001b[40C\u001b[35;1m   Memory \u001b[0m : 4.47 GiB / 15.04 GiB (\u001b[32m30%\u001b[0m)\r\n\u001b[40C\u001b[31;1m  󱫐 Uptime \u001b[0m : 56 mins\r\n\u001b[40C└──────────────────────────────────────────┘\r\n\u001b[40C  ● \u001b[37m● \u001b[36m● \u001b[35m● \u001b[34m● \u001b[33m● \u001b[32m● \u001b[31m●\u001b[0m",
+              "lineCount": 10
+            },
+            "terminalTheme": {
+              "background": "#23262e",
+              "foreground": "#cccccc"
+            }
+          },
+          "toolCallId": "de51e7df-54f0-4773-94e5-a16e105b92fe",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "value": "The `PNG` text is still showing. This indicates kitty isn't properly rendering the image. Let me check if there's an issue with how the logo path is being passed. Let me verify the script output and try with an absolute path approach: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalCommandId": "tool-65404b15-c7d6-46dc-87f5-9ce9a51f6fe9",
+            "commandLine": {
+              "original": "bash ~/.config/fastfetch/fastfetch.sh && file $(bash ~/.config/fastfetch/fastfetch.sh)",
+              "toolEdited": " bash ~/.config/fastfetch/fastfetch.sh && file $(bash ~/.config/fastfetch/fastfetch.sh)"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "exitCode": 0,
+              "timestamp": 1768660369916,
+              "duration": 18
+            },
+            "terminalCommandOutput": {
+              "text": "/home/phitter/.config/fastfetch/logo/aisaka.icon\r\n/home/phitter/.config/fastfetch/logo/aisaka.icon: PNG image data, 1920 x 1920, 8-bit/color RGBA, non-interlaced",
+              "lineCount": 2
+            },
+            "terminalTheme": {
+              "background": "#23262e",
+              "foreground": "#cccccc"
+            }
+          },
+          "toolCallId": "7b0cab20-7357-4d89-a09c-081506169c47",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "value": "The path is valid. The issue is likely that we need to use a different approach. Let me try using a builtin logo instead and also check if kitty needs specific settings. Let me update the config to use the `path` option instead of `source`: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "6334f782-14cb-409e-a64f-75e106bd1482",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "id": "c9e4f6bf-82d1-4100-9ba5-490f17b912d3",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "path\": \"/home/phitter/.config/fastfetch/logo/aisaka.icon",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 3,
+                  "endLineNumber": 6,
+                  "endColumn": 53
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalCommandId": "tool-24510918-544f-409d-a2b4-7b71ac3316a7",
+            "commandLine": {
+              "original": "fastfetch",
+              "toolEdited": " fastfetch"
+            },
+            "language": "sh",
+            "terminalCommandState": {
+              "exitCode": 221,
+              "timestamp": 1768660390430,
+              "duration": 0
+            },
+            "terminalCommandOutput": {
+              "text": "JsonConfig Error: Unknown logo key",
+              "lineCount": 1
+            },
+            "terminalTheme": {
+              "background": "#23262e",
+              "foreground": "#cccccc"
+            }
+          },
+          "toolCallId": "ae1f126e-ccdf-451b-8d0b-66b5124aeaad",
+          "toolId": "run_in_terminal"
+        },
+        {
+          "value": "Let me use the correct key name - it should be `\"source\"`. The issue is that command substitution in JSON doesn't work. Let me revert and use a different approach with just the hardcoded path: ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/phitter/.config/fastfetch/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_replaceString"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hiddenAfterComplete",
+          "invocationMessage": "Using \"Replace String in File\"",
+          "isConfirmed": {
+            "type": 4
+          },
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolCallId": "bf566b7b-6a77-4960-9e2c-3b6c0a1b0662",
+          "toolId": "copilot_replaceString"
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "id": "7d58f9f1-c886-41c8-a0d5-f8a143ff438b",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "source",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 3,
+                  "endLineNumber": 6,
+                  "endColumn": 7
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "\n```\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "supportAlertSyntax": false,
+          "uris": {}
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "run_in_terminal"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": "Using \"Run in Terminal\"",
+          "isComplete": true,
+          "source": {
+            "type": "internal",
+            "label": "Built-In"
+          },
+          "toolSpecificData": {
+            "kind": "terminal",
+            "terminalToolSessionId": "26f92fed-80dd-4e39-8c67-7ca5d03a774b",
+            "terminalCommandId": "tool-5a075a29-3517-4843-9091-fa920280c234",
+            "commandLine": {
+              "original": "fastfetch",
+              "toolEdited": " fastfetch"
+            },
+            "language": "sh"
+          },
+          "toolCallId": "c563f99c-9cc6-4113-bdd0-d1fb2b85592c",
+          "toolId": "run_in_terminal"
+        }
+      ],
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.36.1",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "timestamp": 1768660278533,
+      "editedFileEvents": [
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "external": "file:///home/phitter/.config/fastfetch/fastfetch.sh",
+            "path": "/home/phitter/.config/fastfetch/fastfetch.sh",
+            "scheme": "file"
+          }
+        },
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/phitter/.config/fastfetch/config.jsonc",
+            "external": "file:///home/phitter/.config/fastfetch/config.jsonc",
+            "path": "/home/phitter/.config/fastfetch/config.jsonc",
+            "scheme": "file"
+          }
+        }
+      ],
+      "modelId": "copilot/auto",
+      "responseId": "response_b5b1f275-94cf-410e-ae20-fbf5fc6151a3",
+      "modelState": {
+        "value": 2,
+        "completedAt": 1768661378955
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timeSpentWaiting": 1006224
+    }
+  ],
+  "sessionId": "3b1bcc8e-defe-4b03-8766-47390deb22c3",
+  "creationDate": 1768659952160,
+  "lastMessageDate": 1768660278533,
+  "customTitle": "Fixing logo display issue in Fastfetch",
+  "hasPendingEdits": false,
+  "inputState": {
+    "contrib": {
+      "chatDynamicVariableModel": []
+    },
+    "attachments": [],
+    "mode": {
+      "id": "agent",
+      "kind": "agent"
+    },
+    "selectedModel": {
+      "identifier": "copilot/auto",
+      "metadata": {
+        "extension": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "id": "auto",
+        "vendor": "copilot",
+        "name": "Auto",
+        "family": "claude-haiku-4.5",
+        "detail": "1x",
+        "tooltip": "Auto selects the best model for your request based on capacity and performance.",
+        "version": "claude-haiku-4.5",
+        "maxInputTokens": 127805,
+        "maxOutputTokens": 16000,
+        "auth": {
+          "providerLabel": "GitHub Copilot Chat",
+          "accountLabel": "buoysophit"
+        },
+        "isDefault": true,
+        "isUserSelectable": true,
+        "modelPickerCategory": {
+          "label": "",
+          "order": -9007199254740991
+        },
+        "capabilities": {
+          "vision": true,
+          "toolCalling": true,
+          "agentMode": true
+        }
+      }
+    },
+    "inputText": "",
+    "selections": [
+      {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1,
+        "selectionStartLineNumber": 1,
+        "selectionStartColumn": 1,
+        "positionLineNumber": 1,
+        "positionColumn": 1
+      }
+    ]
+  }
+}

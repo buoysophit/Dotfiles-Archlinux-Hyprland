@@ -1,0 +1,6 @@
+[17/01/2026 15:50:24 - DEBUG] Registered instance 6779d24d-9156-447e-8204-6115e6da98151768639822197-1768639824995-ehajpu
+[17/01/2026 15:50:25 - INFO] Discord Presence activated
+[17/01/2026 15:50:25 - INFO] Creating discord-rpc client
+[17/01/2026 15:50:25 - ERROR] Encountered the following error while trying to login:
+Error: Could not connect
+[17/01/2026 15:50:54 - DEBUG] Registered instance 6779d24d-9156-447e-8204-6115e6da98151768639822197-1768639824995-ehajpu

@@ -1,0 +1,128 @@
+[4:04:22 PM] [INFO] setStatusBarItem: status bar item is undefined
+[4:04:22 PM] [INFO] Discord Rich Presence for VS Code activated.
+[4:04:22 PM] [INFO] Registered Discord Rich Presence commands
+[4:04:23 PM] [INFO] Successfully connected to Discord
+[4:04:23 PM] [INFO] [004] Debug: Enabling Discord Rich Presence
+[4:04:23 PM] [INFO] [004] Debug: Logging in with client ID "782685898163617802"
+[4:04:23 PM] [INFO] [004] Debug: Login - isConnected true isReady 782685898163617802
+[4:04:23 PM] [INFO] [004] Debug: Login - [object Object]
+[4:04:23 PM] [INFO] [004] Debug: Client Should be logged in
+[4:04:23 PM] [INFO] [004] Debug: Enable - [object Object]
+[4:04:23 PM] [INFO] [004] Debug: Enabled - isConnected true isReady 782685898163617802
+[4:04:23 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:04:23 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:04:23 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:04:23 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:04:23 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:04:28 PM] [INFO] onDidChangeWindowState()
+[4:04:33 PM] [INFO] onDidChangeWindowState()
+[4:04:33 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:04:33 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:04:33 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:04:33 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:04:33 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:04:34 PM] [INFO] onDidChangeWindowState()
+[4:05:10 PM] [INFO] onDidChangeWindowState()
+[4:05:10 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:05:10 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:10 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:10 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:05:10 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:05:11 PM] [INFO] onDidChangeWindowState()
+[4:05:32 PM] [INFO] onDidChangeWindowState()
+[4:05:32 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:05:32 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:32 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:32 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:05:32 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:05:36 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:36 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:36 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:05:36 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:36 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:37 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:37 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:37 PM] [INFO] onDidChangeTextEditorSelection()
+[4:05:38 PM] [INFO] onDidChangeWindowState()
+[4:05:38 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:05:38 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:38 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:05:38 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:05:38 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:06:29 PM] [INFO] onDidChangeWindowState()
+[4:06:29 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:06:29 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:29 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:29 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:06:29 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:06:29 PM] [INFO] onDidChangeWindowState()
+[4:06:29 PM] [INFO] onDidChangeWindowState()
+[4:06:32 PM] [INFO] onDidChangeWindowState()
+[4:06:32 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:06:32 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:32 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:32 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:06:32 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:06:33 PM] [INFO] onDidChangeWindowState()
+[4:06:33 PM] [INFO] onDidChangeTextEditorSelection()
+[4:06:33 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:06:33 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:33 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:33 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:06:33 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:06:33 PM] [INFO] [activity.ts] repo button1#gitRemoteUrl:  isGit false
+[4:06:33 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:33 PM] [INFO] [activity.ts] createButton(): enabled false
+[4:06:33 PM] [INFO] [activity.ts] getPresenceButtons button1: Active {
+  "validationError": ""
+}
+[4:06:33 PM] [INFO] [activity.ts] getPresenceButtons button2: Active {
+  "validationError": ""
+}
+[4:06:35 PM] [INFO] Discord Rich Presence for VS Code deactivated.
+[4:06:35 PM] [INFO] setStatusBarItem: status bar item is undefined
+[4:06:35 PM] [INFO] [004] Destroyed Discord RPC client

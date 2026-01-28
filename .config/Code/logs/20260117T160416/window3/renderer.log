@@ -1,0 +1,70 @@
+2026-01-17 16:09:06.728 [info] Started local extension host with pid 18273.
+2026-01-17 16:09:07.137 [info] [icrawl.discord-vscode]: Command `discord.enable` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:07.137 [info] [icrawl.discord-vscode]: Command `discord.disable` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:07.137 [info] [icrawl.discord-vscode]: Command `discord.reconnect` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:07.137 [info] [icrawl.discord-vscode]: Command `discord.disconnect` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:07.138 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2026-01-17 16:09:07.138 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2026-01-17 16:09:07.138 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2026-01-17 16:09:07.172 [warning] [icrawl.discord-vscode]: Cannot register 'discord.enabled'. This property is already registered.
+2026-01-17 16:09:07.172 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsIdling'. This property is already registered.
+2026-01-17 16:09:07.172 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsEditing'. This property is already registered.
+2026-01-17 16:09:07.172 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsDebugging'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsIdling'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsEditing'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsDebugging'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsNoWorkspaceFound'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.largeImageIdling'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.largeImage'. This property is already registered.
+2026-01-17 16:09:07.173 [warning] [icrawl.discord-vscode]: Cannot register 'discord.smallImage'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.suppressNotifications'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.workspaceExcludePatterns'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.swapBigAndSmallImage'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeDetails'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeLowerDetails'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeTimestamp'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeRemoteRepository'. This property is already registered.
+2026-01-17 16:09:07.174 [warning] [icrawl.discord-vscode]: Cannot register 'discord.idleTimeout'. This property is already registered.
+2026-01-17 16:09:07.835 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-17 16:09:08.526 [error] [Extension Host] (node:18273) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-17 16:09:08.527 [error] [Extension Host] (node:18273) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-17 16:09:08.696 [info] Settings Sync: Account status changed from uninitialized to available
+2026-01-17 16:09:09.132 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-17 16:09:09.457 [info] [perf] Render performance baseline is 21ms
+2026-01-17 16:09:10.128 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-17 16:09:20.109 [info] Started local extension host with pid 18648.
+2026-01-17 16:09:20.179 [info] [icrawl.discord-vscode]: Command `discord.enable` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:20.180 [info] [icrawl.discord-vscode]: Command `discord.disable` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:20.180 [info] [icrawl.discord-vscode]: Command `discord.reconnect` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:20.180 [info] [icrawl.discord-vscode]: Command `discord.disconnect` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 16:09:20.180 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2026-01-17 16:09:20.181 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2026-01-17 16:09:20.182 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2026-01-17 16:09:20.206 [warning] [icrawl.discord-vscode]: Cannot register 'discord.enabled'. This property is already registered.
+2026-01-17 16:09:20.207 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsIdling'. This property is already registered.
+2026-01-17 16:09:20.207 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsEditing'. This property is already registered.
+2026-01-17 16:09:20.207 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsDebugging'. This property is already registered.
+2026-01-17 16:09:20.207 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsIdling'. This property is already registered.
+2026-01-17 16:09:20.207 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsEditing'. This property is already registered.
+2026-01-17 16:09:20.207 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsDebugging'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsNoWorkspaceFound'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.largeImageIdling'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.largeImage'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.smallImage'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.suppressNotifications'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.workspaceExcludePatterns'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.swapBigAndSmallImage'. This property is already registered.
+2026-01-17 16:09:20.208 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeDetails'. This property is already registered.
+2026-01-17 16:09:20.209 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeLowerDetails'. This property is already registered.
+2026-01-17 16:09:20.209 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeTimestamp'. This property is already registered.
+2026-01-17 16:09:20.209 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeRemoteRepository'. This property is already registered.
+2026-01-17 16:09:20.209 [warning] [icrawl.discord-vscode]: Cannot register 'discord.idleTimeout'. This property is already registered.
+2026-01-17 16:09:21.751 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-17 16:09:22.011 [error] [Extension Host] (node:18648) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-17 16:09:22.019 [error] [Extension Host] (node:18648) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-17 16:09:22.316 [info] Settings Sync: Account status changed from uninitialized to available
+2026-01-17 16:09:22.983 [info] [perf] Render performance baseline is 22ms
+2026-01-17 16:09:23.621 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-17 16:09:23.980 [error] chatParticipant must be declared in package.json: claude-code

@@ -1,0 +1,29 @@
+2026-01-17 16:04:41.192 [info] GitLens v17.9.0 activating in Visual Studio Code (1.108.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|f0438dc0dcbe112f48653d040fcccce49dc3b6c57cd38979be23dd3cc37f3990|a7659519-36d6-4f18-9833-ee53278e25ee1768640676630)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2026-01-17 16:05:14.594 [info] GitLens v17.9.0 activating in Visual Studio Code (1.108.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|f0438dc0dcbe112f48653d040fcccce49dc3b6c57cd38979be23dd3cc37f3990|29e13a96-6d9e-4da0-872b-2eb9b5c950491768640709289)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2026-01-17 09:05:14.560] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 09:05:14.561] [GIT          ] [/home/phitter/.config/waybar_configs] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [44ms]
+
+2026-01-17 16:05:16.585 [info] [2026-01-17 09:05:16.573] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 09:05:16.573] [GIT          ] [/home/phitter/.config/waybar_configs/waybar_block_1] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [9ms]
+
+2026-01-17 16:05:47.982 [info] [2026-01-17 09:05:47.483] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 09:05:47.483] [GIT          ] [/home/phitter/.config/waybar_configs/waybar_block_2] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [9ms]
+
+2026-01-17 16:06:02.306 [info] [2026-01-17 09:06:01.805] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 09:06:01.806] [GIT          ] [/home/phitter/.config/waybar_configs/waybar_block_3] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [10ms]
+
+2026-01-17 16:06:11.809 [info] [2026-01-17 09:06:11.308] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 09:06:11.309] [GIT          ] [/home/phitter/.config/waybar_configs/waybar_floating] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [9ms]
+
+2026-01-17 16:06:22.307 [info] [2026-01-17 09:06:21.807] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-17 09:06:21.807] [GIT          ] [/home/phitter/.config/waybar_configs/waybar_underline] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [9ms]
+

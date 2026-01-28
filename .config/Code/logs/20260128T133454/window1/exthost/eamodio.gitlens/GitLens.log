@@ -1,0 +1,13 @@
+2026-01-28 13:35:00.647 [info] GitLens v17.9.0 activating in Visual Studio Code (1.108.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|f0438dc0dcbe112f48653d040fcccce49dc3b6c57cd38979be23dd3cc37f3990|c6f1efb8-6527-4b49-a70f-6c7da7d766fd1769582095181)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2026-01-28 06:35:00.505] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-28 06:35:00.506] [GIT          ] [/home/phitter/.config/fastfetch] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [100ms]
+
+2026-01-28 13:35:26.753 [info] GitLens v17.9.0 activating in Visual Studio Code (1.108.0) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|f0438dc0dcbe112f48653d040fcccce49dc3b6c57cd38979be23dd3cc37f3990|c172c04a-5f62-42a7-8f9b-c705fa15716d1769582123944)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2026-01-28 13:35:30.273 [info] [2026-01-28 06:35:29.913] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any of the parent directories): .git
+
+[2026-01-28 06:35:29.914] [GIT          ] [/home/phitter/Dotfile-Hyprland] git rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [8ms]
+

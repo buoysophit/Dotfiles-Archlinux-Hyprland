@@ -1,0 +1,18 @@
+2026-01-17 21:26:54.968 [info] Client: Pylance client (2025.10.4) started with python extension (2026.0.0)
+2026-01-17 21:26:55.484 [info] (59936): Server root directory: file:///home/phitter/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-17 21:26:55.485 [info] (59936): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-01-17 21:26:55.489 [info] (59936): Starting service instance "fastfetch" for workspace "/home/phitter/.config/fastfetch"
+2026-01-17 21:26:56.279 [info] (59936): Loading background bundle file:///home/phitter/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/phitter/.config/fastfetch...
+2026-01-17 21:26:56.378 [info] (59936): FG(fastfetch): Setting environmentName for service "fastfetch": "3.14.2 (global)"
+2026-01-17 21:26:56.378 [info] (59936): FG(fastfetch): Setting pythonPath for service "fastfetch": "/bin/python"
+2026-01-17 21:26:56.378 [info] (59936): FG(fastfetch): No include entries specified; assuming /home/phitter/.config/fastfetch
+2026-01-17 21:26:56.379 [info] (59936): FG(fastfetch): Auto-excluding **/node_modules
+2026-01-17 21:26:56.379 [info] (59936): FG(fastfetch): Auto-excluding **/__pycache__
+2026-01-17 21:26:56.379 [info] (59936): FG(fastfetch): Auto-excluding **/.*
+2026-01-17 21:26:56.406 [info] (59936): FG(fastfetch): Assuming Python version 3.14.2.final.0
+2026-01-17 21:26:56.503 [info] (59936): Settings have not changed. Skipping update.
+2026-01-17 21:26:56.504 [info] (59936): Starting Mcp server id:5360 ...
+2026-01-17 21:26:56.531 [info] (59936): FG(fastfetch): No source files found.
+2026-01-17 21:26:56.867 [info] (59936): PQ(fastfetch): Priority queue background worker(2) root directory: file:///home/phitter/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-17 21:26:56.868 [info] (59936): PQ(fastfetch): Priority queue background worker(2) started
+2026-01-17 21:26:57.109 [info] (59936): BG(fastfetch): Loaded external background bundle file:///home/phitter/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 

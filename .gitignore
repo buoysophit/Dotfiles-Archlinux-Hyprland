@@ -1,0 +1,24 @@
+# Cache and temporary files
+.cache/
+.local/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Application caches
+Code/Cache/
+Code\ -\ OSS/Cache/
+Code\ -\ OSS/.org.chromium.Chromium*
+Code/.org.chromium.Chromium*
+
+# Discord and electron caches
+discord/Cache/
+Electron/
+
+# Vim backup
+*.bak

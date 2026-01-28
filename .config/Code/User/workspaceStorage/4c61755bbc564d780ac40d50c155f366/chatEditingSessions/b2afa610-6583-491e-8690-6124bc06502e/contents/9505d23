@@ -1,0 +1,5 @@
+#!/bin/bash
+# Set wallpaper for laptop screen
+hyprpaper wallpaper /home/phitter/wallpaper/reze.jpg eDP-1 fill
+# Set wallpaper for external monitor
+hyprpaper wallpaper /home/phitter/wallpaper/reze.jpg HDMI-A-1 fill

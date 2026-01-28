@@ -1,0 +1,31 @@
+[3:50:26 PM] [INFO] setStatusBarItem: status bar item is undefined
+[3:50:26 PM] [ERROR] Encountered following error while trying to login: COULD_NOT_CONNECT: Could not connect to Discord client
+    at /home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:40:202
+    at new Promise (<anonymous>)
+    at uh.getSocket (/home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:38:11923)
+    at uh.connect (/home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:40:356)
+    at /home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:98:1909
+    at new Promise (<anonymous>)
+    at FB.connect (/home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:98:1351)
+    at FB.login (/home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:98:1982)
+    at new dg (/home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:98:56558)
+    at Object.<anonymous> (/home/phitter/.vscode/extensions/leonardssh.vscord-5.3.9/dist/extension.js:100:986)
+    at Module._compile (node:internal/modules/cjs/loader:1714:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+    at Module.load (node:internal/modules/cjs/loader:1448:32)
+    at Module._load (node:internal/modules/cjs/loader:1270:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:6054)
+    at Module.t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:223:22716)
+    at Module.r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:215:24094)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/home/phitter/.vscode/extensions/github.copilot-chat-0.36.1/dist/extension.js:259:36169)
+    at require (node:internal/modules/helpers:147:16)
+    at kK.Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:254:1253)
+[3:50:26 PM] [INFO] [002] Destroyed Discord RPC client
+[3:50:27 PM] [INFO] Discord Rich Presence for VS Code activated.
+[3:50:27 PM] [INFO] Registered Discord Rich Presence commands
+[3:51:17 PM] [INFO] Discord Rich Presence for VS Code deactivated.
+[3:51:17 PM] [INFO] [004] Destroyed Discord RPC client

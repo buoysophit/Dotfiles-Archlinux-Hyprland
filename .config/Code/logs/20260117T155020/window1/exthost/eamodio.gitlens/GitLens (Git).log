@@ -1,0 +1,8 @@
+2026-01-17 15:50:27.369 [info] [2026-01-17 08:50:27.287] [         75ms] [/home/phitter/.config/waybar] git rev-parse --show-toplevel • FAILED
+2026-01-17 15:50:27.370 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 15:50:27.395 [info] [2026-01-17 08:50:27.395] [         25ms] [/home/phitter/.config/waybar] git rev-parse --show-toplevel • FAILED
+2026-01-17 15:50:27.395 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+

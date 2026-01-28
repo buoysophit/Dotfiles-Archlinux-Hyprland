@@ -1,0 +1,16 @@
+2026-01-17 15:42:55.376 [info] [2026-01-17 08:42:55.318] [        288ms] [/home/phitter/.config/swaync] git rev-parse --show-toplevel • FAILED
+2026-01-17 15:42:55.376 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 15:43:32.515 [info] [2026-01-17 08:43:32.480] [         14ms] [/home/phitter/.config/swaync] git rev-parse --show-toplevel • FAILED
+2026-01-17 15:43:32.515 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 15:43:36.097 [info] [2026-01-17 08:43:36.097] [        105ms] [/home/phitter/.config/swaync] git rev-parse --show-toplevel • FAILED
+2026-01-17 15:43:36.097 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 15:43:41.909 [info] [2026-01-17 08:43:41.909] [         10ms] [/home/phitter/.config/swaync] git rev-parse --show-toplevel • FAILED
+2026-01-17 15:43:41.909 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+

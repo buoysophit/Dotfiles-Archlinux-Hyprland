@@ -1,0 +1,10 @@
+2026-01-17 21:29:40.047 [info] Starting server pylance mcp server
+2026-01-17 21:29:40.047 [info] Connection state: Starting
+2026-01-17 21:29:40.138 [info] Starting server from LocalProcess extension host
+2026-01-17 21:29:40.138 [info] Connection state: Running
+2026-01-17 21:29:40.172 [info] Discovered 12 tools
+2026-01-17 21:34:40.736 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:39:42.339 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:44:43.973 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2026-01-17 21:49:38.994 [warning] Extension host shut down, server will stop.
+2026-01-17 21:49:38.995 [info] Connection state: Stopped

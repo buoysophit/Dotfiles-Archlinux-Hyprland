@@ -1,0 +1,6 @@
+[17/01/2026 15:42:31 - DEBUG] Registered instance 70cdec7a-335b-4ac2-b1cd-53d3e23647621768639349184-1768639351536-uu0hd1
+[17/01/2026 15:42:31 - INFO] Discord Presence activated
+[17/01/2026 15:42:31 - INFO] Creating discord-rpc client
+[17/01/2026 15:42:31 - ERROR] Encountered the following error while trying to login:
+Error: Could not connect
+[17/01/2026 15:43:01 - DEBUG] Registered instance 70cdec7a-335b-4ac2-b1cd-53d3e23647621768639349184-1768639351536-uu0hd1

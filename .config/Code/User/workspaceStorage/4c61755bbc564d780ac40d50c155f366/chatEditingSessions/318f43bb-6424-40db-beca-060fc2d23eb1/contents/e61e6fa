@@ -1,0 +1,13 @@
+preload=/home/phitter/wallpaper/reze.jpg
+
+wallpaper=eDP-1,/home/phitter/wallpaper/reze.jpg
+wallpaper=HDMI-A-1,/home/phitter/wallpaper/reze.jpg
+# .. more monitors
+ 
+#enable splash text rendering over the wallpaper
+splash = false
+ 
+#fully disable ipc
+# ipc = off
+ 
+ 

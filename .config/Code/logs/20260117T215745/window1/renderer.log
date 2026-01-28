@@ -1,0 +1,46 @@
+2026-01-17 21:57:46.800 [info] Started local extension host with pid 94999.
+2026-01-17 21:57:47.155 [info] [icrawl.discord-vscode]: Command `discord.enable` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 21:57:47.155 [info] [icrawl.discord-vscode]: Command `discord.disable` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 21:57:47.156 [info] [icrawl.discord-vscode]: Command `discord.reconnect` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 21:57:47.156 [info] [icrawl.discord-vscode]: Command `discord.disconnect` already registered by Discord Rich Presence Connect (globalart.discord-vscode-rpc)
+2026-01-17 21:57:47.157 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2026-01-17 21:57:47.158 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2026-01-17 21:57:47.158 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2026-01-17 21:57:47.194 [warning] [icrawl.discord-vscode]: Cannot register 'discord.enabled'. This property is already registered.
+2026-01-17 21:57:47.194 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsIdling'. This property is already registered.
+2026-01-17 21:57:47.195 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsEditing'. This property is already registered.
+2026-01-17 21:57:47.195 [warning] [icrawl.discord-vscode]: Cannot register 'discord.detailsDebugging'. This property is already registered.
+2026-01-17 21:57:47.195 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsIdling'. This property is already registered.
+2026-01-17 21:57:47.195 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsEditing'. This property is already registered.
+2026-01-17 21:57:47.195 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsDebugging'. This property is already registered.
+2026-01-17 21:57:47.195 [warning] [icrawl.discord-vscode]: Cannot register 'discord.lowerDetailsNoWorkspaceFound'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.largeImageIdling'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.largeImage'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.smallImage'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.suppressNotifications'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.workspaceExcludePatterns'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.swapBigAndSmallImage'. This property is already registered.
+2026-01-17 21:57:47.196 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeDetails'. This property is already registered.
+2026-01-17 21:57:47.197 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeLowerDetails'. This property is already registered.
+2026-01-17 21:57:47.197 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeTimestamp'. This property is already registered.
+2026-01-17 21:57:47.197 [warning] [icrawl.discord-vscode]: Cannot register 'discord.removeRemoteRepository'. This property is already registered.
+2026-01-17 21:57:47.197 [warning] [icrawl.discord-vscode]: Cannot register 'discord.idleTimeout'. This property is already registered.
+2026-01-17 21:57:48.748 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-17 21:57:49.054 [error] [Extension Host] (node:94999) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-17 21:57:49.063 [error] [Extension Host] (node:94999) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-17 21:57:49.479 [info] Settings Sync: Account status changed from uninitialized to available
+2026-01-17 21:57:50.304 [info] [perf] Render performance baseline is 21ms
+2026-01-17 21:57:51.270 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-17 21:57:51.480 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-17 21:59:08.432 [error] Make sure the ref is set before accessing the element. Maybe wrong initialization order?: Error: Make sure the ref is set before accessing the element. Maybe wrong initialization order?
+    at o.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:35:22040)
+    at npe.triggerAnimation (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:483:100480)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:483:102511
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:21060
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:20961
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:20869
+    at _8._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:7871)
+    at _8.l (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5817)
+    at _8.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6277)
+    at Vb.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11134)

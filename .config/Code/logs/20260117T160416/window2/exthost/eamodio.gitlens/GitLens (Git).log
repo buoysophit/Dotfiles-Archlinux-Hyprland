@@ -1,0 +1,24 @@
+2026-01-17 16:05:14.613 [info] [2026-01-17 09:05:14.561] [         44ms] [/home/phitter/.config/waybar_configs] git rev-parse --show-toplevel • FAILED
+2026-01-17 16:05:14.613 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 16:05:16.573 [info] [2026-01-17 09:05:16.573] [          9ms] [/home/phitter/.config/waybar_configs/waybar_block_1] git rev-parse --show-toplevel • FAILED
+2026-01-17 16:05:16.573 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 16:05:47.483 [info] [2026-01-17 09:05:47.483] [          9ms] [/home/phitter/.config/waybar_configs/waybar_block_2] git rev-parse --show-toplevel • FAILED
+2026-01-17 16:05:47.483 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 16:06:01.806 [info] [2026-01-17 09:06:01.806] [         10ms] [/home/phitter/.config/waybar_configs/waybar_block_3] git rev-parse --show-toplevel • FAILED
+2026-01-17 16:06:01.806 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 16:06:11.309 [info] [2026-01-17 09:06:11.309] [          9ms] [/home/phitter/.config/waybar_configs/waybar_floating] git rev-parse --show-toplevel • FAILED
+2026-01-17 16:06:11.309 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+
+2026-01-17 16:06:21.807 [info] [2026-01-17 09:06:21.807] [          9ms] [/home/phitter/.config/waybar_configs/waybar_underline] git rev-parse --show-toplevel • FAILED
+2026-01-17 16:06:21.807 [info] 
+Error: fatal: not a git repository (or any of the parent directories): .git
+

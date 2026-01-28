@@ -1,0 +1,2 @@
+2026-01-17 17:39:28.901 [error] Invalid path provided: /home/phitter/.config/waybar.bak1, ENOENT: no such file or directory, stat '/home/phitter/.config/waybar.bak1'
+2026-01-17 17:39:28.968 [info] update#setState idle

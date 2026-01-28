@@ -1,0 +1,42 @@
+{
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "editor.fontFamily": "Iosevka Nerd Font Mono",
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "icons",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "editor.tabSize": 2,
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+    "emulator.emulatorPath": "C:\\Users\\PHITTER\\AppData\\Local\\Android\\Sdk\\emulator",
+    "emulator.emulatorPathWindows": "C:\\Users\\PHITTER\\AppData\\Local\\Android\\Sdk\\emulator",
+    "reactSnippets.settings.prettierEnabled": true,
+    "git.autofetch": true,
+    "editor.fontSize": 16,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "debug.javascript.debugByLinkOptions": "on",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "workbench.colorTheme": "Andromeda Bordered"
+}

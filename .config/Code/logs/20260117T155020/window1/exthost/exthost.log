@@ -1,0 +1,83 @@
+2026-01-17 15:50:23.181 [info] Extension host with pid 2283 started
+2026-01-17 15:50:23.182 [info] Skipping acquiring lock for /home/phitter/.config/Code/User/workspaceStorage/fcc98142a39471b0f7cd1cccea46a26d.
+2026-01-17 15:50:23.716 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-17 15:50:23.748 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-17 15:50:23.770 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2026-01-17 15:50:23.805 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 15:50:23.814 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 15:50:23.862 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 15:50:23.906 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-01-17 15:50:24.951 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-17 15:50:24.953 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-01-17 15:50:24.955 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-01-17 15:50:24.977 [info] ExtensionService#_doActivateExtension globalart.discord-vscode-rpc, startup: true, activationEvent: '*'
+2026-01-17 15:50:24.996 [info] ExtensionService#_doActivateExtension icrawl.discord-vscode, startup: true, activationEvent: '*'
+2026-01-17 15:50:25.038 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2026-01-17 15:50:25.270 [error] Activating extension icrawl.discord-vscode failed due to an error:
+2026-01-17 15:50:25.270 [error] Error: command 'discord.enable' already exists
+    at mA.registerCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:40445)
+    at Object.registerCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:213:101356)
+    at activate (/home/phitter/.vscode/extensions/icrawl.discord-vscode-5.9.2/src/extension.ts:120:27)
+    at GA.kb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15356)
+    at GA.jb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15101)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13259
+    at aA.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+    at aA.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+    at aA.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2026-01-17 15:50:25.279 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-01-17 15:50:25.364 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-17 15:50:25.419 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-17 15:50:25.533 [error] Activating extension globalart.discord-vscode-rpc failed due to an error:
+2026-01-17 15:50:25.533 [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/home/phitter/.vscode/extensions/globalart.discord-vscode-rpc-1.1.1/dist/extension.js:1:432405)
+    at /home/phitter/.vscode/extensions/globalart.discord-vscode-rpc-1.1.1/dist/extension.js:1:432491
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/home/phitter/.vscode/extensions/globalart.discord-vscode-rpc-1.1.1/dist/extension.js:1:432449)
+    at RPCClient.destroy (/home/phitter/.vscode/extensions/globalart.discord-vscode-rpc-1.1.1/dist/extension.js:1:305734)
+    at login (/home/phitter/.vscode/extensions/globalart.discord-vscode-rpc-1.1.1/dist/extension.js:1:472325)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at activate (/home/phitter/.vscode/extensions/globalart.discord-vscode-rpc-1.1.1/dist/extension.js:1:468490)
+    at aA.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+    at aA.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+    at aA.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2026-01-17 15:50:25.718 [info] Eager extensions activated
+2026-01-17 15:50:25.822 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:25.826 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:25.844 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.052 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.084 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.660 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.747 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.747 [info] ExtensionService#_doActivateExtension LeonardSSH.vscord, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.823 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.945 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.958 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:26.964 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 15:50:27.003 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at yZt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:520:10001)
+2026-01-17 15:50:27.431 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2026-01-17 15:51:17.756 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-17 15:51:17.780 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-01-17 15:51:17.792 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:134355)
+    at Hw.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:24779)
+    at Hw.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:24875)
+    at Object.dispose (/home/phitter/.vscode/extensions/eamodio.gitlens-17.9.0/dist/gitlens.js:118:28506)
+    at /home/phitter/.vscode/extensions/eamodio.gitlens-17.9.0/dist/gitlens.js:828:58600
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/phitter/.vscode/extensions/eamodio.gitlens-17.9.0/dist/gitlens.js:828:58581)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+    at xR.b (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15172)
+    at xR.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1227)
+    at kK.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12045)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+    at Array.map (<anonymous>)
+    at kK.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+    at kK.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+    at UM.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+    at _s (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:11135)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:7610)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-17 15:51:17.807 [info] Extension host with pid 2283 exiting with code 0
